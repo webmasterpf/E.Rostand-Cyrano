@@ -1,4 +1,7 @@
-<?php include "inc_header.php"; ?>
+<?php
+global $theme_path;
+include ($theme_path.'/includes/inc_header.php');
+?>
 <!-- ______________________ LAYOUT HOMEPAGE _______________________ -->
  <!-- ______________________ CONTENU _______________________ -->
     
@@ -56,4 +59,7 @@
 	
 	
 	 </div> <!-- /mainPage -->
-     <?php include "inc_footer.php";?>
+     <?php
+global $theme_path;
+include ($theme_path.'/includes/inc_footer.php');
+?>

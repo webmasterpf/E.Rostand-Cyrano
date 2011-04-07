@@ -21,3 +21,26 @@
 #update-results li.failure strong {
   color: #b63300;
 }
+/*STYLE MAINTENANCE OFFLINE*/
+#name-and-slogan-offline, #site-slogan-offline{
+    background: #F29400;
+    color: #606070;
+}
+#contentPage-offline{
+
+	margin:0 auto;
+	padding:0;
+	width: 990px;
+	background-color:white;
+
+}
+#footer-offline{
+    margin:0 auto;
+	padding:5px 0;
+	width:980px;
+	background: white url(../images/bg_footer.jpg) no-repeat bottom right;
+	text-align: left;
+	color: #9898a6;
+        height:50px;
+        font-size: 11px;
+}

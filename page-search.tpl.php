@@ -1,4 +1,7 @@
-<?php include "inc_header.php"; ?>
+<?php
+global $theme_path;
+include ($theme_path.'/includes/inc_header.php');
+?>
  <!-- ______________________ LAYOUT PAGE RECHERCHE _______________________ -->
   <!-- ______________________ CONTENU _______________________ -->
   
@@ -88,6 +91,9 @@
           <?php endif; ?>
 	 </div> <!-- /contentPage -->
 	  
-	  <?php include "inc_footer.php";?>
+	<?php
+global $theme_path;
+include ($theme_path.'/includes/inc_footer.php');
+?>
          <?php endif; ?>
      
