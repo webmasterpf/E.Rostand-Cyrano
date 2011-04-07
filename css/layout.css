@@ -1,0 +1,471 @@
+/**
+Layout de positionnement des blocs
+Inclusion des polices en css3
+ */
+@font-face {
+    font-family : "Arista";
+    src: url(../typos/Arista2.0_light.eot); /* IE */
+    src: local("Arista"), url(../typos/Arista2.0_light.ttf) format('truetype');/* non-IE */
+}
+
+
+html {
+ margin: 0;
+ padding: 0;
+}
+
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Trebuchet MS, Verdana, Helvetica, sans-serif;
+	font-size: 12px;
+	background-color: white;
+	color: gray;
+}
+ul,li,dl,dd,dt{
+    list-style-position: inside;
+}
+ /*------------------------------------------------------*
+  *--------    CSS BLOCS     						 ----*
+  *------------------------------------------------------*/
+
+
+#general{
+	margin:0 auto;
+	padding:0;
+	width:100%;
+}
+
+/*Haut de page  HEADER*/
+
+#header{
+	margin:0 auto;
+	padding:0;
+	width:990px;
+	height:auto;
+	background-color:transparent;
+}
+
+/*Contenu de page  CONTENT */
+
+#contentPage, #contentPageActu {
+	margin:0 auto;
+	padding:0;
+	width: 990px;
+	background: white;/*couleur fond de page content*/
+}
+#content-inner,#left-content,#right-content{
+height: 100%;
+}
+/*//////SOUS ENTETE/////*/
+/*#content-top{
+	margin:0 auto;
+	padding:5px;
+	width:500px;
+	height:auto;
+	background-color: red;
+	}
+#left-content{}
+#middle-content{}
+#right-content{}
+*/
+/*/// debut des colonnes ///*/
+#left-content{
+	float:left;
+	position:relative;
+	background-color:transparent;
+	width:200px;
+	left:0px;
+}
+
+/*/// partie de droite ///*/
+#right-content{
+	float:right;
+	position:relative;
+	background-color:#FF66CC;
+	width:200px;
+	right:0px;
+}
+/*inner content*/
+#content-inner{
+width:555px;
+margin:0 auto;
+float:left;
+background-color: white;
+
+}
+/*///    partie du centre   ///*/
+#middle-content{
+    	float:left;
+	position:relative;
+	background-color:transparent;
+	width:555px !important;
+        width: 545px;
+	padding:5px;
+        margin: 0 auto;
+        border-left: 1px solid #ACC624;
+        border-right: 1px solid #F8E91B;
+ }
+
+/*PIED DE CONTENU*/
+#content-bottom{
+background:transparent;
+width:100%;
+margin: 0 auto;
+}
+
+/*Bas de page  FOOTER*/
+
+#footer{
+	margin:0 auto;
+	padding:5px 0;
+	width:980px;
+	background: white url(../images/bg_footer.jpg) no-repeat bottom right;
+	text-align: left;
+	color: #9898a6;
+        height:45px;
+}
+
+#footer a{
+color: #9898a6;
+text-decoration:none;
+}
+#footer a:hover{
+color: #000000;
+}
+#bloc_stats{
+    color:red;
+    margin:0 auto;
+    width:600px;
+}
+/**----Fin FOOTER---***/
+#content-top{
+    margin:0 auto;
+    padding:5px;
+    width:970px;
+    height:auto;
+    background: white url(../images/fieldset_top.gif) repeat-x scroll left 11px;
+   }
+  /*------------------------------------------------------*
+  *------------ CSS H  ----*
+  *------------------------------------------------------*/
+
+h1 {
+	margin: 0;
+	padding: 5px 0;
+	color:#606070;
+	font-size: 24px;
+        line-height:1em;
+}
+
+h2 {
+	margin: 0;
+	padding: 0;
+	color:#000;
+	font-size: 18px;
+}
+h2.title{
+	margin: 5px;
+	padding: 0;
+	color:#000;
+	font-size: 18px;
+}
+h2.title a{
+	color:#EA5132;
+        text-decoration: none;
+}
+h2.title a:hover{
+	text-decoration: underline;
+}
+h3 {
+	margin: 0;
+	padding: 0;
+	color:#E3001B;
+	font-size: 16px;
+}
+h4 {
+	margin: 0;
+	padding: 0;
+	color:#000;
+	font-size: 14px;
+}
+h5 {
+	margin: 0;
+	padding: 0;
+	color:#000;
+	font-size: 12px;
+}
+h6 {
+	margin: 0;
+	padding: 0;
+	color:#000;
+	font-size: 10px;
+}
+/*-----FIN LAYOUT DE BASE-----------*/
+/***************************************/
+
+/* LAYOUT PAGE BASE 2 COLONNES*/
+#content-inner-base2col{
+    width:710px;
+    margin:0 auto;
+    float:left;
+    background-color: white;
+}
+
+#middle-content-base2col{
+    	float:left;
+	position:relative;
+	background-color:transparent;
+	width:710px !important;
+        width: 710px ;
+	padding:5px;
+        margin: 0 auto;
+        border-right: 1px solid #11B0D5;
+}
+
+#right-content-base2col{
+        float:right;
+	position:relative;
+	background-color:transparent;
+	width:235px;
+	right:0px;
+}
+/*LAYOUT PAGE ACTUALITES*/
+#content-inner-actualites{
+width:300px;
+margin:0 auto;
+float:left;
+background-color:transparent;
+border-left: 1px solid #11B0D5;
+border-right: 1px solid #11B0D5;
+}
+#left-content-actualites{
+    float:left;
+    position:relative;
+    /*background:transparent url('../images/titre_revue_presse.gif') no-repeat top left;*/
+    width:330px;
+    left:0px;
+    padding:25px 5px 5px;
+}
+.views-field-title a{
+    font-size: 14px;
+    font-weight: bold;
+    color: #11B0D5;
+}
+.views-field-teaser a{
+    color: black;
+}
+#middle-content-actualites{
+    float:left;
+    position:relative;
+    /*background: transparent url('../images/titre_texte_reference.gif') no-repeat left top;*/
+    width:auto;
+    padding:5px;
+
+}
+
+#actualite-association{
+     width:auto;
+     height: auto;
+     display: block;
+     padding: 25px 10px 10px 10px;
+     margin: 0 0 15px 0;
+     background: transparent;
+     border-bottom: 1px solid #11B0D5;
+}
+
+#actualite-intervenants{
+     width:auto;
+     height: auto;
+     display: block;
+     padding: 25px 5px 0;
+     margin: 0 0 15px 0;
+     background: #EFEFEF /*url('../images/titre_actu_association.gif') no-repeat top left*/;
+}
+#right-content-actualites{
+    float:right;
+    position:relative;
+    /*background:#FFF url('../images/titre_actu_lycees.gif') no-repeat top left;*/
+    width:330px;
+    right:0px;
+    padding:25px 5px 5px;
+    }
+    /*CSS pour les titres avec typo perso*/
+#contentPageActu h3.block-title, #middle-content-actualites h2{
+    font-family: Arista,Trebuchet MS,sans serif;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 5px 0;
+    text-align:center;
+}
+#right-content-actualites h3.block-title {
+    color: purple;
+}
+#left-content-actualites h3.block-title{
+    color: #E2017B;
+}
+#actualite-association h3.block-title{
+    color: #E3001B;
+}
+/*LAYOUT SORTIE ACTIONS*/
+#left-content-sortie-actions{
+	float:left;
+	position:relative;
+	background-color:transparent;
+	width:225px;
+	left:0px;
+}
+
+#right-content-sortie-actions{
+	float:right;
+	position:relative;
+	background-color:#FF66CC;
+	width:200px;
+	right:0px;
+}
+
+#content-inner-sortie-actions{
+width:735px;
+margin:0 auto;
+float:left;
+background-color: white;
+
+}
+
+#middle-content-sortie-actions{
+    	float:left;
+	position:relative;
+	background-color:transparent;
+	width:735px !important;
+        width: 735px;
+	padding:5px;
+        margin: 0 auto;
+        border-left: 1px solid #E3007A;
+        border-right: 1px solid #11B0D5;
+ }
+ #galerie-node{
+     float: right;
+     background: red;
+}
+ .gallery-container{
+     background: transparent;
+     /*float: right;*/
+}
+ .gallery-container a,.gallery-container a:hover{
+   background: none;
+   text-decoration: none;
+}
+.img_centre{
+    margin: 3px;
+    text-align: center;
+    padding: 2px;
+    border: 0px solid #11B0D5;
+}
+/*LAYOUT PAGE VIE DU LYCEE*/
+#left-content-vie-lycee{
+   float:left;
+   position:relative;
+   background-color:transparent;
+   width:250px;
+}
+#content-inner-vie-lycee{
+    	float:left;
+	position:relative;
+	background-color:transparent;
+	width: 700px;
+}
+#middle-content-vie-lycee{
+       	float:left;
+	position:relative;
+	background-color:transparent;
+	width: 700px;
+	padding:5px;
+        margin: 0 auto;
+        border-left: 1px solid #ACC624;
+        border-right: 1px solid #11B0D5;
+}
+#right-content-vie-lycee{}
+/*LAYOUT PAGE CONTACT OU FORMULAIRE*/
+#left-content-contact{
+   float:left;
+   position:relative;
+   background-color:transparent;
+   width:250px;
+}
+#content-inner-contact{
+    	float:left;
+	position:relative;
+	background-color:transparent;
+	width: 700px;
+}
+#middle-content-contact{
+       	float:left;
+	position:relative;
+	background-color:transparent;
+	width: 700px;
+	padding:5px;
+        margin: 0 auto;
+        border-left: 1px solid #ACC624;
+        border-right: 1px solid #F8E91B;
+}
+#right-content-contact{}
+/*LAYOUT PAGE FICHES FORMATIONS*/
+#left-content-fiche-formations{
+   float:left;
+   position:relative;
+   background-color:transparent;
+   width:250px;
+   padding:3px;
+}
+#content-inner-fiche-formations{
+    	float:left;
+	position:relative;
+	background-color:transparent;
+	width: 700px;
+}
+#middle-content-fiche-formations{
+       	float:left;
+	position:relative;
+	background-color:transparent;
+	width: auto;
+	padding:5px;
+        margin: 0 auto;
+        border-left: 1px solid #E2017B;
+        border-right: 0px solid #F8E91B;
+}
+#right-content-fiche-formations{
+    width: auto;
+    padding: 0;
+    margin: 0;
+}
+/*LAYOUT PAGE MONDE PRO*/
+#left-content-pageMondePro{
+    width: 225px;
+    margin: 0;
+    padding: 0 5px;
+    float: left;
+}
+#content-inner-pageMondePro{
+    	float:left;
+	position:relative;
+	background-color:transparent;
+	width: 515px;
+}
+#middle-content-pageMondePro{
+       	float:left;
+	position:relative;
+	background-color:transparent;
+	width: auto;
+	padding:5px;
+        margin: 0 auto;
+        border-left: 1px solid #E2017B;
+        border-right: 0px solid #F8E91B;
+}
+
+#right-content-pageMondePro{
+    width: 230px;
+    padding: 0;
+    margin: 0;
+    float: right;
+}

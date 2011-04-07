@@ -1,0 +1,96 @@
+/******************************
+HORIZONTAL (downdown) menus
+******************************/
+
+ul.nice-menu-downdown {
+  width:990px; /* width of the 1st level menu horizontal line */
+  float: left;
+  background: #EFEFEF;
+}
+
+ul.nice-menu-downdown li {
+  width: auto;
+  display: block;
+  
+}
+
+ul.nice-menu-downdown ul {
+  width: 800px;  /* width of the 2nd level menu horizontal line */
+  left: 0em; /* change if you want the 2nd level menu to be shifted to the right/left */
+}
+
+ul.nice-menu-downdown ul  li {
+  width: auto;  /* width of each 2nd level list item */
+}
+
+ul.nice-menu-downdown ul ul {
+  width: auto;  /* width of the 3rd level menu horizontal line */
+  left: 0em; /* change if you want the 3rd level menu to be shifted to the right/left */
+  top: 1.8em; /* height of the 2st menu level and also margin after which 3rd level starts */
+}
+
+ul.nice-menu-downdown ul  ul li {
+  width: 100px;  /* width of each 3rd level list item */
+}
+
+
+ul.nice-menu-downdown li.menuparent,
+ul.nice-menu-downdown li li.menuparent {
+  background: none;
+}
+
+ul.nice-menu-downdown li.menuparent:hover,
+ul.nice-menu-downdown li.over,
+ul.nice-menu-downdown li li.menuparent:hover,
+ul.nice-menu-downdown li li.over {
+  background: none;
+}
+/*Pour les rubriques avec sous rubriques*/
+ul.nice-menu-downdown li a {
+ 	text-decoration: none;
+	background: none;
+	color:#606070;
+	border: 0;
+	height: 30px;
+	display: block;
+	padding:13px 4px;
+	width:130px;
+        text-align: center;
+        text-transform:uppercase;
+        font-weight: bold;
+
+}
+ul.nice-menu-downdown li a:hover {
+	text-decoration: none;
+	background: none;
+	color:#E3001B;
+	border: 0;
+}
+/*Style sous rubriques horizontales downdown*/
+
+ul.nice-menu-downdown li.menuparent ul {
+margin: 50px 0 0 0;
+background: none;
+text-align: center;
+
+}
+
+ul.nice-menu-downdown li.menuparent ul li {
+  border: 0;
+  background: none;
+ height: 20px;
+}
+
+ul.nice-menu-downdown li.menuparent ul li a{
+  list-style: disc;
+  border: 0;
+  width: auto;
+  height: auto;
+  color:#E3001B;
+  text-align:left;
+  padding: 0 0 0 5px;
+
+}
+ul.nice-menu-downdown li.menuparent ul li a:hover{
+ color:#ebebeb;
+}

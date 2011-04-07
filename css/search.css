@@ -1,0 +1,49 @@
+/* $Id: search.css,v 1.3 2007/10/31 18:06:38 dries Exp $ */
+
+.search-form {
+  margin-bottom: 1em;
+}
+.search-form input {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.search-results p {
+  margin-top: 0;
+}
+.search-results dt {
+  font-size: 1.1em;
+}
+.search-results dd {
+  margin-bottom: 1em;
+}
+.search-results .search-info {
+  font-size: 0.85em;
+}
+.search-info{
+    display: none;
+}
+.search-advanced .criterion {
+  float: left; /* LTR */
+  margin-right: 2em; /* LTR */
+}
+.search-advanced .action {
+  float: left; /* LTR */
+  clear: left; /* LTR */
+}
+/*resultats de la recherche*/
+.title-search-result a{
+    color: #93117E;
+    text-decoration: none;
+}
+.title-search-result a:hover{
+    color: white;
+    background: #93117E;
+}
+/*champ recherche header*/
+#edit-search-theme-form-1-wrapper{
+    width: auto;
+}
+#edit-search-theme-form-1{/*texte dans champ recherche*/
+    font-size: 10px;
+    width:115px;
+}

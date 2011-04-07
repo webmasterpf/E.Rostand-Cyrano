@@ -1,0 +1,236 @@
+/**
+Template page d'accueil custom
+ */
+#header-inner{
+	margin:auto;
+	height:auto;
+	width:990px;
+	background:none;
+	
+
+}
+/*Partie gauche du header*/
+#headHaut{
+	width:990px;
+	height:55px;
+	float:none;
+	display:block;
+	margin:0;
+	
+}
+#logoHead{
+	height:55px !important;
+	width:335px;
+	float:left;
+	display:block;
+	margin:0;
+}
+#logoHead img{
+	height:55px !important;
+	width:335px;
+	padding:0;
+	margin:0;
+}
+/*Menu pictos header*/
+#menuImg{
+	height:30px;
+	width:auto;
+	float:right;
+	background:transparent;
+	padding:30px 0 0;
+
+}
+#navPicto{
+border:0;
+height:25px;
+width:575px;
+
+}
+
+#navPicto td{
+border:0;
+height:25px;
+width:auto;
+display:block;
+float:left;
+padding:5px;
+}
+
+#navPicto a {
+	border:0;
+	}
+#navPicto a :hover{}
+/************PARTIE BASSE**************/
+#headBas{
+	width:990px;
+	height:115px;
+	float:none;
+	display:block;
+	margin:5px 0 0 0;
+	background:#CFD0D2 url(../images/bg_menu_rp.gif) repeat-x top left;
+	
+}
+/*Menu principal haut du header*/
+#menuHead{
+	float:none;
+	height:auto;
+	padding:0;
+	width:990px;
+	
+	
+	
+}
+#headSearch{
+text-align:right;
+margin: 2px 0 0 0;
+background: url(../images/bg_recherche.gif) no-repeat left 5px;
+height: 25px;
+display: block;
+float: right;
+}
+#search{
+  width: 225px;
+  height: 25px;
+  display: block;
+  padding:0 3px 0 0;
+
+}
+#name-and-slogan{
+	height:20px;
+	width:990px;
+	vertical-align:bottom;
+	float:right;
+}
+#site-name a{
+text-decoration: none;
+color: white;
+text-transform: uppercase;
+}
+
+#site-name{
+padding:160px 0 0 10px;
+margin:0;
+}
+#site-slogan{
+color:white;
+display:block;
+float:left;
+height:20px;
+padding:3px 0 0 40px;
+width:400px;
+}
+
+#site-slogan a{
+text-decoration: none;
+color: white;
+text-transform: uppercase;
+}
+
+
+/*FIN CSS HEADER*/
+/*****************/
+#mainPage{
+	margin:auto;
+	width:990px;
+	clear:none;
+        background: url(../images/bg_content_etoile.gif) no-repeat left bottom;
+	
+}
+/********************/
+/*ZONES PAGE ACCUEIL*/
+#content-bottom-home a{
+    color: gray;
+    font-weight: bold;
+}
+#HPDiapo{
+width: auto;
+height: auto;
+padding:10px 0 0;
+
+}
+/****************/
+#BasGaucheHP{
+        width:54%;
+        float:left;
+	background:none;
+	color:black;
+
+}
+
+#BasDroitHP{
+	width:46% !important;
+        width: 43%;
+	float:right;
+	background:none;
+}
+#BasGaucheHP ul li{
+    list-style: square;
+}
+#BasGaucheHP a,#BasDroitHP a{
+text-decoration:none;
+}
+#BasGaucheHP a:hover,#BasDroitHP a:hover{
+text-decoration:underline;
+}
+/*---DIAPORAMA HOMEPAGE TEXTE DYNAMIQUE----*/
+#transparency{
+background:none repeat scroll 0 0 #E3001B;
+height:65px;
+bottom:5px;
+left:5px;
+position:absolute;
+width:968px;
+z-index:15;
+opacity:0.6;
+-moz-opacity : 0.6;
+-ms-filter: "alpha(opacity=60)"; /* IE 8 */
+filter : alpha(opacity=60); /* IE < 8 */
+}
+#contenu-diapo{
+position:absolute;
+bottom: 10%;
+left: 10px;
+color: white;
+z-index:20;
+}
+#contenu-diapo h2{
+color: white;
+padding:5px;
+font-family: Arista,Trebuchet MS,sans serif;
+
+}
+#contenu-diapo a{
+color: white;
+text-decoration: none;
+}
+.view-diaporama-homepage{
+height:200px;
+margin:0 auto;
+position:inherit;
+width:978px;
+}
+#views_slideshow_singleframe_main_diaporama_homepage-block_1{
+    padding: 0;
+}
+#views_slideshow_singleframe_teaser_section_diaporama_homepage-block_1{
+    position: relative;
+    z-index:1;
+}
+
+/*
+------ Bloc RSS actu association
+*/
+#block-aggregator-feed-1 ul{
+    list-style-position: inside;
+}
+#block-aggregator-feed-1 ul li{
+    list-style-type: circle;
+}
+#block-aggregator-feed-1 a{
+    color: #4F4F4F;
+    text-decoration: none;
+}
+#block-aggregator-feed-1 a:hover{
+    color: #E2001A;
+    text-decoration: underline;
+}

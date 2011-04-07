@@ -1,0 +1,414 @@
+/*------------------------------------------------------*
+*-- CSS Drupal--------------*
+*------------------------------------------------------*/
+
+/*------------------------------------------------*
+ *---  Provence Formation Janv. 2010 --*
+ *------------------------------------------------*/
+
+/**********STYLE POUR LES BLOCS*******************/
+
+/**----HEADER---***/
+
+
+/**----MIDDLE---***/
+a#retour_haut{
+    display: none;
+    color: #AEC721;
+    text-decoration: none;
+    text-align: right;
+    float:right;
+}
+a:hover#retour_haut{
+    text-decoration: underline;
+}
+p{
+    padding: 2px 0;
+    margin: 0;
+}
+
+#middle-content-sortie-actions p, ul{
+    padding: 5px;
+    margin: 0;
+}
+#middle-content-sortie-actions h3{
+    color: #11B0D5;
+    padding: 2px;
+}
+#middle-content-sortie-actions h2{
+   text-align: center;
+   color: #11B0D5;
+}
+#middle-content-sortie-actions h4{
+    color: #94127F;
+    padding: 2px;
+    text-indent: 3px;
+}
+#middle-content-sortie-actions a{
+    color: #11B0D5;
+    text-decoration: none;
+    padding: 2px;
+    text-indent: 3px;
+}
+#middle-content-sortie-actions a:hover{
+    color: white;
+    background: #11B0D5;
+   }
+/*TABLES STYLES DIVERS*/
+.table_generik{
+    border: 0px solid black;
+    width: 95%;
+}
+.table_generik tr{
+    border: 0px solid black;
+}
+.table_generik tr.ligne_1{
+    background: transparent;
+    color: black;
+}
+.table_generik tr.ligne_2{
+   background: #ADC91F;
+   color: white;
+}
+.table_generik td{
+    border: 0px solid black;
+   
+}
+#table_frais{
+    border: 0;
+    width: 100%;
+}
+tr.tf_line_1{
+    color: white;
+    background: #01AAD3;
+}
+tr.tf_line_2{
+    color: #E85231;
+    background: white;
+}
+/*style lien en savoir plus*/
+li.node_read_more a{
+color : red;
+text-decoration: none;
+text-align:left;
+}
+li.node_read_more a:hover{
+text-decoration: underline;
+}
+
+
+/****------formulaire contact/////////*/
+#contact-mail-page{
+margin: auto;
+width: 550px;
+padding: 0;
+}
+
+/**----CONTENT TOP---***/
+#content-header{
+padding: 5px;
+}
+#content-header .messages status{
+    background: grey;
+    padding: 3px;
+}
+/**style du fil d'ariane**/
+.breadcrumb {
+color:#d63e2a;
+text-decoration:none;
+}
+##ariane{
+    display: block;
+    width: auto;
+background: white;
+}
+
+.breadcrumb a{
+color:#4e4d5e;
+text-decoration:none;
+background: white;
+}
+.breadcrumb a:hover{
+color:#000;
+text-decoration:underline;
+}
+.annonce{
+    color:#E2017B;
+    font-size:16px;
+    font-weight:bold;
+    margin:11px 0 0;
+    padding:0;
+    text-align:center;
+}
+.annonce a{
+    color: #E2017B;
+    text-decoration: none;
+    font-weight: bold;
+}
+.annonce a:hover{
+    text-decoration: underline;
+}
+.image-photo-jeunes{
+    vertical-align: bottom;
+    margin: 0;
+    padding: 0;
+}
+/**----CONTENT BOTTOM---***/
+#content-bottom a{
+    color: #02A7D5;
+    text-decoration: none;
+}
+#content-bottom a:hover{
+    text-decoration: underline;
+}
+#content-top{}
+.taxonomy{
+text-align:right;
+padding: 3px;
+margin: 0px;
+}
+.taxonomy a{
+color: #d63e2a;
+text-decoration:none;
+}
+.taxonomy a:hover{
+text-decoration:underline;
+}
+/*----page login------*/
+#user-login{
+margin: auto;
+width: 450px;
+padding:10px 0;
+}
+/**----COLONNE GAUCHE---***/
+#left-content p{
+	color:#000;
+
+}
+#left-content a{
+	
+	text-decoration:none;
+}
+#left-content a:hover{
+	color:#990000;
+	text-decoration:underline;
+}
+#left-content li{
+	margin:0;
+	padding: 0;
+	}
+/**----COLONNE DROITE---***/
+#right-content p{
+	color:#000;
+
+}
+#right-content a{
+	color:#666666;
+	text-decoration:none;
+}
+#right-content a:hover{
+	color:#990000;
+	text-decoration:underline;
+}
+#right-content li{
+	margin:0;
+	padding: 0;
+	list-style:none;
+}
+/*___BASE 2 COL____*/
+#middle-content-base2col a{
+    color: #E3001B;
+    text-decoration: none;
+}
+#middle-content-base2col a:hover{
+   text-decoration: underline;
+}
+/*STYLE PAGE LYCEE*/
+.table-formation, #table-acces{
+    width: 320px;
+    border: 0;
+    text-align:right;
+}
+.table-formation .diplome, #table-acces tr.transport{
+    text-transform: capitalize;
+    color: black;
+    font-weight: bold;
+    border-bottom: 1px dotted gray;
+    text-align:left;
+
+}
+.transport-detail{}
+.views-field-diplome a{
+     color: gray;
+      text-decoration: none;
+}
+.views-field-diplome a:hover{
+   text-decoration: underline;
+}
+/*STYLE PAGE FORMATIONS INITIALES ARBRE*/
+#table-offre-formation, #table-offre-formation tbody{
+    width: 953px !important;
+    height: 491px !important;
+    border: 0;
+    border-collapse:collapse;
+    margin: 0;
+    padding: 0;
+    line-height: 0;
+   /* vertical-align: bottom;*/
+}
+
+#table-offre-formation tr{
+    width: 953px;
+    height: auto;
+    border: 0;
+     line-height: 0;
+     margin: 0;
+    padding: 0;
+}
+#table-offre-formation td{
+    width: auto;
+    height: auto;
+    border: 0;
+     line-height: 0;
+     margin: 0;
+    padding: 0;
+}
+#table-offre-formation img{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    line-height: 0;
+}
+/************************/
+/*STYLE FICHE FORMATION*/
+#middle-content-fiche-formations h2{
+     color: #11B0D5;
+     font-size: 14px;
+}
+#middle-content-fiche-formations h3{
+     font-size: 12px;
+     color: #93117E;
+}
+#middle-content-fiche-formations ul{
+    list-style: square;
+}
+#middle-content-fiche-formations a{
+    color: #93117E;
+    text-decoration: none;
+}
+#middle-content-fiche-formations a:hover{
+    background:transparent;
+    color: #11B0D5;
+    text-decoration: underline;
+}
+/*STYLE PAGE ACTUALITE*/
+#left-content-actualites a{
+    text-decoration: none;
+   
+}
+#left-content-actualites a:hover{
+    text-decoration: underline;
+    color: #11B0D5;
+}
+#middle-content-actualites a{
+   /* color: #d63e2a;*/
+    text-decoration: none;
+    /*font-weight: bold;*/
+}
+#middle-content-actualites a:hover{
+    text-decoration: underline;
+}
+#actualite-association ul li{
+   list-style: square;
+}
+#actualite-association a{
+    text-decoration: underline;
+    color: black;
+    padding: 2px;
+}
+#actualite-association a:hover{
+    text-decoration: underline;
+    color: white;
+    background: #11B0D5;
+}
+#right-content-actualites a{
+    text-decoration: none;
+   
+}
+#right-content-actualites a:hover{
+     text-decoration: underline;
+    color: #11B0D5;
+}
+.view-liste-projets .views-row, .view-liste-sortie-action .views-row{
+    border-bottom: 1px solid #11B0D5;
+    margin:0 0 5px;
+}
+.view-liste-innovations a{
+    text-decoration: underline;
+    color: black;
+    padding: 2px;
+}
+
+/*PAGES ACTIVITE VIE DU LYCEE*/
+.item-list-activites{
+    margin: 0;
+}
+.item-list-activites h3{
+    color: #11B0D5;
+    padding:5px;
+    text-align:center;
+    font-size: 13px;
+}
+.item-list-activites a{
+    color: black;
+    text-decoration: none;
+}
+.item-list-activites a:hover{
+    color: black;
+    text-decoration: underline;
+}
+.item-list-activites ul{
+    list-style: none;
+}
+.item-list-activites li{
+    list-style: none;
+    background: #EFEFEF;
+    padding: 3px;
+    margin:0 3px 3px;
+}
+.item-list-activites .views-field-title a{
+    font-weight: bold;
+    text-transform: capitalize;
+    color: #E7512F;
+}
+.view-liste-activites-lycee a.field-content{
+    color: red;
+}
+.field-field-video-externe{
+    margin: 0 auto;
+    padding: 0;
+    width:425px;
+}
+/*PAGE NODE MONDE PRO*/
+#table-fichiers{
+    border: 0;
+    width: 90%;
+    margin: 0 auto;
+}
+
+#table-fichiers tr{}
+
+#table-fichiers td{}
+
+#table-fichiers a{
+    color: #E30078;
+    text-decoration: none;
+}
+
+#table-fichiers a:hover{
+    background: #E30078;
+    color: white;
+}
+
+#middle-content-pageMondePro a{}
+#middle-content-pageMondePro a:hover{}

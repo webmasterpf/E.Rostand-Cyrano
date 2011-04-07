@@ -1,0 +1,15 @@
+/* 
+    Document   : webform
+    Created on : 29 sept. 2010, 15:13:09
+    Author     : frederic
+    Description:
+        Purpose of the stylesheet follows.
+*/
+#corps-email {
+    background: red;
+    margin: 0;
+    padding: 5px;
+}
+.webform-display-item label{
+    font-weight: bold;
+}

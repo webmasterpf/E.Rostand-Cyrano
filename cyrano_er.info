@@ -1,0 +1,49 @@
+name = E.Rostand Cyrano inspired
+description = Theme pour site E.Rostand - Design by Cyrano - Integration by Aiphes
+version = VERSION
+core = 6.x
+engine = phptemplate
+
+scripts[] = js/general.js
+
+stylesheets[all][] = css/reset.css
+stylesheets[all][] = css/webform.css
+stylesheets[all][] = css/layout-home.css
+stylesheets[all][] = css/layout.css
+stylesheets[all][] = css/global.css
+stylesheets[all][] = css/nice_menus_custom.css
+stylesheets[all][] = css/nice_menu_down-horiz-children.css
+stylesheets[all][] = css/nice_menus_default.css
+stylesheets[all][] = css/style-backoffice.css
+stylesheets[all][] = css/search.css
+stylesheets[all][] = css/maintenance.css
+
+
+regions[header] = Header
+regions[menuDyn] = Menu Header - Nice Menu
+regions[navStatic] = Navigation par images - Bloc
+regions[DiapoHP] = Diaporama Homepage - Bloc
+regions[HPBasGauche] = Zone Bas Gauche HP - Bloc
+regions[HPBasDroit] = Zone Bas Droit HP - Bloc
+regions[content_top] = Content top
+regions[formulaire] = Zone formulaire bloc
+regions[left] = Colonne Gauche
+regions[decoTitre] = Titre deco image - Fiche Formations
+regions[right] = Colonne Droite
+regions[centralBloc] = Zone pour bloc central - View Bloc
+regions[content_bottom] = Content bottom
+regions[content_bottom_home] = Content bottom homepage
+regions[footer_block] = Footer
+;Regions pour la page actu
+regions[sortie_action] = Zone pour les sorties/actions - Vue bloc
+regions[actuAssociation] = Zone pour RSS issu du site PF - Vue Bloc RSS
+regions[projets] = Zone pour les projets - Vue Bloc
+regions[intervenants] = Zone pour les Intervenants - Vue Bloc
+;Region pour formulaire
+regions[formulaire] = Formulaire (centre) - Webform Bloc
+
+settings[basic_zen_tabs]             = 1
+settings[basic_wireframe]            = 0
+settings[basic_block_editing]        = 1
+settings[basic_rebuild_registry]     = 1
+
