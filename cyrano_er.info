@@ -1,5 +1,5 @@
 name = E.Rostand inspired by Cyrano
-description = Theme pour site E.Rostand - Design by Cyrano - Integration by Aiphes
+description = Theme pour site E.Rostand - Design and Integration by Webmaster PF
 version = VERSION
 core = 6.x
 engine = phptemplate
