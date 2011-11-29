@@ -25,6 +25,7 @@ regions[navStatic] = Navigation par images - Bloc
 regions[DiapoHP] = Diaporama Homepage - Bloc
 regions[HPBasGauche] = Zone Bas Gauche HP - Bloc
 regions[HPBasDroit] = Zone Bas Droit HP - Bloc
+regions[content_top_node] = Content top node (page template)
 regions[content_top] = Content top
 regions[formulaire] = Zone formulaire bloc
 regions[left] = Colonne Gauche
@@ -41,6 +42,14 @@ regions[projets] = Zone pour les projets - Vue Bloc
 regions[intervenants] = Zone pour les Intervenants - Vue Bloc
 ;Region pour formulaire
 regions[formulaire] = Formulaire (centre) - Webform Bloc
+;Region pour les node.tpl (ajouter dans template.php)
+regions[col_G1] = Bloc pour colonne G1
+regions[col_G2] = Bloc pour colonne G2
+regions[col_G3] = Bloc pour colonne G3
+;Region pour page poles formation (ajouter dans template.php)
+regions[pole_bloc_G] = Bloc pour pole Gauche
+regions[pole_bloc_C] = Bloc pour pole Centre
+regions[pole_bloc_D] = Bloc pour pole Droit
 
 settings[basic_zen_tabs]             = 1
 settings[basic_wireframe]            = 0

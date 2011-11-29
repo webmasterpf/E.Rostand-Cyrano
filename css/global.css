@@ -6,6 +6,72 @@
  *---  Provence Formation Janv. 2010 --*
  *------------------------------------------------*/
 
+/*------- EFFETS VISUELS GENERIQUES--------------*/
+.ombrage {
+    border: 5px solid #fff;
+    -moz-box-shadow: 8px 8px 12px #aaa;
+    -webkit-box-shadow: 8px 8px 12px #aaa;
+    box-shadow: 8px 8px 12px #555;
+    }
+.ombrage_bas {
+
+    -moz-box-shadow: 2px 2px 5px #aaa;
+    -webkit-box-shadow: 2px 2px 5px #aaa;
+    box-shadow: 2px 2px 5px #555;
+    }
+.table_tr_ombrage_bas{
+        -moz-box-shadow: 1px 2px 2px #aaa;
+        -webkit-box-shadow: 1px 2px 2px #aaa;
+        box-shadow: 1px 2px 2px #555;
+    }
+.ombrage_bloc {
+
+    -moz-box-shadow: 2px 2px 5px #aaa;
+    -webkit-box-shadow: 2px 2px 5px #aaa;
+    box-shadow: 2px 2px 5px #555;
+    }
+.ombrage_bas_table_actu{
+         -moz-box-shadow: 2px 2px 5px #aaa;
+    -webkit-box-shadow: 2px 2px 5px #aaa;
+    box-shadow: 2px 2px 5px #555;
+}
+.ombre-interne{
+   -moz-box-shadow:inset 0 0 10px #000000;
+   -webkit-box-shadow:inset 0 0 10px #000000;
+   box-shadow:inset 0 0 10px #000000;
+}
+/*
+HOMEPAGE STYLE==================================
+*/
+#HPGauche2 ul{
+  margin: 0;
+  padding: 0;
+}
+#HPGauche2 ul li{
+  margin: 0;
+  padding: 0;
+  list-style:disc inside none;
+}
+#HPGauche2 li a{
+  color: #95107D;
+  text-decoration: none;
+}
+#HPGauche2 li a:hover{
+  text-decoration: underline;
+}
+/*-------------------------------------------------
+*********  COULEURS *****************
+gris anthracite #606070
+vert #ADC91F
+violet #911381
+orange #F29400
+bleu turquoise #01ABCF
+rouge #E3001C
+rose fushia #E3001C
+jaune #FAEB0C
+*/
+
+
 /**********STYLE POUR LES BLOCS*******************/
 
 /**----HEADER---***/
@@ -26,34 +92,6 @@ p{
     padding: 2px 0;
     margin: 0;
 }
-
-#middle-content-sortie-actions p, ul{
-    padding: 5px;
-    margin: 0;
-}
-#middle-content-sortie-actions h3{
-    color: #11B0D5;
-    padding: 2px;
-}
-#middle-content-sortie-actions h2{
-   text-align: center;
-   color: #11B0D5;
-}
-#middle-content-sortie-actions h4{
-    color: #94127F;
-    padding: 2px;
-    text-indent: 3px;
-}
-#middle-content-sortie-actions a{
-    color: #11B0D5;
-    text-decoration: none;
-    padding: 2px;
-    text-indent: 3px;
-}
-#middle-content-sortie-actions a:hover{
-    color: white;
-    background: #11B0D5;
-   }
 /*TABLES STYLES DIVERS*/
 .table_generik{
     border: 0px solid black;
@@ -148,11 +186,7 @@ text-decoration:underline;
 .annonce a:hover{
     text-decoration: underline;
 }
-.image-photo-jeunes{
-    vertical-align: bottom;
-    margin: 0;
-    padding: 0;
-}
+
 /**----CONTENT BOTTOM---***/
 #content-bottom a{
     color: #02A7D5;
@@ -215,200 +249,124 @@ padding:10px 0;
 	padding: 0;
 	list-style:none;
 }
-/*___BASE 2 COL____*/
-#middle-content-base2col a{
-    color: #E3001B;
-    text-decoration: none;
+/*------------------------------------
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+   STYLES POUR NODE CUSTOM
+££££££££££££££££££££££££££££££££££££££
+*/
+
+/*-------------------------------------
+        PAGE LYCEE NODE.TPL
+*/
+.plycee p{
+    padding: 7px;
 }
-#middle-content-base2col a:hover{
-   text-decoration: underline;
+.plycee{}
+.plycee{}
+h1.plycee{
+    color: #E2001A;
+    margin: 5px;
 }
-/*STYLE PAGE LYCEE*/
-.table-formation, #table-acces{
-    width: 320px;
-    border: 0;
-    text-align:right;
+#docs-utiles-lycee{
+    background:  url(../images/bg_doc_utile_rp.jpg) repeat left top ;
+    margin: 0 auto;
+    width: 200px;
+    padding: 20px 0;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    behavior: url(/sites/all/libraries/PIE/PIE.htc);
+    position: relative;
 }
-.table-formation .diplome, #table-acces tr.transport{
-    text-transform: capitalize;
-    color: black;
-    font-weight: bold;
-    border-bottom: 1px dotted gray;
-    text-align:left;
+#docs-utiles-lycee h3{
+    text-align: center;
+    color: #E2001A;
+    margin: 10px 0;
+    font-family: Arista,Trebuchet MS, sans-serif;
 
 }
-.transport-detail{}
-.views-field-diplome a{
-     color: gray;
-      text-decoration: none;
-}
-.views-field-diplome a:hover{
-   text-decoration: underline;
-}
-/*STYLE PAGE FORMATIONS INITIALES ARBRE*/
-#table-offre-formation, #table-offre-formation tbody{
-    width: 953px !important;
-    height: 491px !important;
-    border: 0;
-    border-collapse:collapse;
-    margin: 0;
-    padding: 0;
-    line-height: 0;
-   /* vertical-align: bottom;*/
-}
-
-#table-offre-formation tr{
-    width: 953px;
-    height: auto;
-    border: 0;
-     line-height: 0;
-     margin: 0;
-    padding: 0;
-}
-#table-offre-formation td{
-    width: auto;
-    height: auto;
-    border: 0;
-     line-height: 0;
-     margin: 0;
-    padding: 0;
-}
-#table-offre-formation img{
-    margin: 0;
-    padding: 0;
-    border: 0;
-    line-height: 0;
-}
-/************************/
-/*STYLE FICHE FORMATION*/
-#middle-content-fiche-formations h2{
-     color: #11B0D5;
-     font-size: 14px;
-}
-#middle-content-fiche-formations h3{
-     font-size: 12px;
-     color: #93117E;
-}
-#middle-content-fiche-formations ul{
-    list-style: square;
-}
-#middle-content-fiche-formations a{
-    color: #93117E;
+#docs-utiles-lycee a{
+    color: #606070;
+    display: list-item;
+    list-style-position: inside;
+    list-style-type: square;
     text-decoration: none;
-}
-#middle-content-fiche-formations a:hover{
-    background:transparent;
-    color: #11B0D5;
-    text-decoration: underline;
-}
-/*STYLE PAGE ACTUALITE*/
-#left-content-actualites a{
-    text-decoration: none;
-   
-}
-#left-content-actualites a:hover{
-    text-decoration: underline;
-    color: #11B0D5;
-}
-#middle-content-actualites a{
-   /* color: #d63e2a;*/
-    text-decoration: none;
-    /*font-weight: bold;*/
-}
-#middle-content-actualites a:hover{
-    text-decoration: underline;
-}
-#actualite-association ul li{
-   list-style: square;
-}
-#actualite-association a{
-    text-decoration: underline;
-    color: black;
     padding: 2px;
+
 }
-#actualite-association a:hover{
-    text-decoration: underline;
+#docs-utiles-lycee a:hover{
+    background: #E2001A;
     color: white;
-    background: #11B0D5;
+    padding: 2px 2px 5px;
 }
-#right-content-actualites a{
-    text-decoration: none;
-   
-}
-#right-content-actualites a:hover{
-     text-decoration: underline;
-    color: #11B0D5;
-}
-.view-liste-projets .views-row, .view-liste-sortie-action .views-row{
-    border-bottom: 1px solid #11B0D5;
-    margin:0 0 5px;
-}
-.view-liste-innovations a{
-    text-decoration: underline;
-    color: black;
-    padding: 2px;
+#docs-utiles-lycee .filefield-icon {
+    display: none;
 }
 
-/*PAGES ACTIVITE VIE DU LYCEE*/
-.item-list-activites{
-    margin: 0;
+.table-docs-utiles-lycee table{}
+.table-docs-utiles-lycee tbody{}
+.table-docs-utiles-lycee tr{
+    background: none repeat scroll 0 0 transparent;
+    border: 0 none;
 }
-.item-list-activites h3{
-    color: #11B0D5;
-    padding:5px;
-    text-align:center;
-    font-size: 13px;
+.table-docs-utiles-lycee td{
+
 }
-.item-list-activites a{
-    color: black;
-    text-decoration: none;
-}
-.item-list-activites a:hover{
-    color: black;
-    text-decoration: underline;
-}
-.item-list-activites ul{
-    list-style: none;
-}
-.item-list-activites li{
-    list-style: none;
-    background: #EFEFEF;
-    padding: 3px;
-    margin:0 3px 3px;
-}
-.item-list-activites .views-field-title a{
+.table-docs-utiles-lycee{}
+.taxo_ficheform{
+    background: #ACC624;
+    color: #606070;
     font-weight: bold;
-    text-transform: capitalize;
-    color: #E7512F;
-}
-.view-liste-activites-lycee a.field-content{
-    color: red;
-}
-.field-field-video-externe{
     margin: 0 auto;
-    padding: 0;
-    width:425px;
+    text-align: center;
+    width: 200px;
 }
-/*PAGE NODE MONDE PRO*/
-#table-fichiers{
+/*********************************
+----------------------------------
+---- BLOC rostand ACTUS et AUTRES EVENEMENTS---------
+---------------------------------*/
+#bloc_rostand_actus, #bloc_autre_event{
+  background-color: white;
+  background-image: url(../images/bg_rostand_actus_ht.jpg),url(../images/bg_rostand_actus_bas.jpg);
+  background-position: left 23px, left bottom;
+  background-repeat: no-repeat;
+    margin: 0 auto;
+    padding: 5px 0;
+    width: 210px;
+}
+#bloc_rostand_actus tr{}
+#bloc_rostand_actus td{}
+#bloc_rostand_actus h3, #bloc_autre_event h3{
+    color: #01ABCF;
+    font-family: arista,Trebuchet MS,sans-serif;
+    padding: 5px;
+    text-align: center;
+     font-size: 20px;
+}
+#bloc_rostand_actus{}
+
+.table_rostandactus tbody,.table_ae tbody{
+  width: 200px;
+
+}
+.table_rostandactus td,.table_ae td{
+    background: none repeat scroll 0 0 transparent;
+    border: 0 none;
+    display: block;
+    margin: 5px 0;
+    padding: 0 0 0 5px;
+    width: 200px;
+}
+.table_rostandactus tr, .table_ae tr{
+    background: none repeat scroll 0 0 transparent;
     border: 0;
-    width: 90%;
-    margin: 0 auto;
+
 }
-
-#table-fichiers tr{}
-
-#table-fichiers td{}
-
-#table-fichiers a{
-    color: #E30078;
+.table_rostandactus a, .table_ae a{
     text-decoration: none;
+    color: #606070;
 }
-
-#table-fichiers a:hover{
-    background: #E30078;
+.table_rostandactus a:hover, .table_ae a:hover{
+    background: #E2001A;
     color: white;
 }
-
-#middle-content-pageMondePro a{}
-#middle-content-pageMondePro a:hover{}
