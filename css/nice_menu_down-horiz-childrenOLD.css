@@ -63,7 +63,7 @@ ul.nice-menu-downdown li a {
 ul.nice-menu-downdown li a:hover {
 	text-decoration: none;
 	background: none;
-	color:#E85134;
+	color:#E3001B;
 	border: 0;
 }
 /*Style sous rubriques horizontales downdown*/
@@ -86,11 +86,11 @@ ul.nice-menu-downdown li.menuparent ul li a{
   border: 0;
   width: auto;
   height: auto;
-  color:#E85134;
+  color:#E3001B;
   text-align:left;
   padding: 0 0 0 5px;
 
 }
 ul.nice-menu-downdown li.menuparent ul li a:hover{
- color:#606070;
+ color:#ebebeb;
 }

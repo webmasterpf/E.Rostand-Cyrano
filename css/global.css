@@ -370,3 +370,159 @@ h1.plycee{
     background: #E2001A;
     color: white;
 }
+/*********************************
+----------------------------------
+---- PAGE ACTU GLOBALE   ---------
+---------------------------------*/
+#bloc_actus_projet,#bloc_actus_sortie{
+        background:  url(../images/bg_bloc_rouge_ht.jpg) no-repeat left top ;
+        width: 354px;
+        margin: 0 auto;
+        padding: 10px 0 0;
+}
+#bloc_actus_projet h3,#bloc_actus_sortie h3{
+    color: white;
+    font-family: Arista,Trebuchet MS,sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+#bloc_actus_projet .view-footer, #bloc_actus_sortie .view-footer{
+    background: url(../images/bg_bloc_rouge_bas.jpg) no-repeat left bottom ;
+     text-align: center;
+        padding: 3px;
+}
+#bloc_actus_projet .view-footer a,#bloc_actus_sortie .view-footer a{
+    color: white;
+    font-family: Arista,Trebuchet MS,sans-serif;
+    font-size: 12px;
+    text-decoration: none;
+}
+#bloc_actus_projet .view-footer a:hover{
+    text-decoration: underline
+}
+#table_ag_projets,#table_ag_sorties{
+    
+    margin: 0 auto;
+    width: 275px;
+}
+#table_ag_projets tbody,#table_ag_sorties tbody{
+    background: none;
+    display: block;
+    padding: 25px 0 0;
+}
+#table_ag_projets tr{}
+#table_ag_projets td{
+    text-align: center;
+}
+#table_ag_projets a{
+    text-decoration: none;
+    color: #606070;
+    font-weight: bold;
+}
+#table_ag_projets a:hover{
+    color: #EFEFEF;
+}
+hr.sep-actus-rouge{
+    width: 265px;
+    margin: 0 auto;
+    border: 1px solid #E2001A;
+    height: 1px;
+}
+#bloc_actus_sortie{}
+#table_ag_sorties{}
+#table_ag_sorties  a{
+    color: #91127D;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 2px;
+     display: block;
+    
+}
+#table_ag_sorties  a:hover{
+    color: #E2001A;
+}
+#table_ag_sorties  a:hover img{
+ opacity:0.6;
+-moz-opacity : 0.6;
+-ms-filter: "alpha(opacity=60)"; /* IE 8 */
+filter : alpha(opacity=60); /* IE < 8 */
+
+-moz-box-shadow:inset 0 0 2px #CCC;
+-webkit-box-shadow:inset 0 0 2px #CCC;
+box-shadow:inset 0 0 2px #CCC;
+}
+#table_ag_sorties{}
+/*Titre sur image*/
+.titre_actuGlobale{
+    bottom: 30px;
+    left: 3px;
+    position: relative;
+    width: 190px;
+    z-index: 20;
+    background: white;
+    display: block;
+    
+}
+.titre_actuGlobale a,.image_actuGlobale img a{
+     
+}
+.titre_actuGlobale a:hover{
+   background: #E85231;
+   text-decoration: none;
+}
+.image_actuGlobale{
+height:75px;
+position:relative;
+width:301px;
+z-index:15;
+}
+.image_actuGlobale img:hover{
+    -moz-box-shadow:inset 0 0 2px #000000;
+   -webkit-box-shadow:inset 0 0 2px #000000;
+   box-shadow:inset 0 0 2px #000000;
+}
+/*BLOC FLUX RSS ACTU DE L'ASSO'*/
+#block-aggregator-feed-1 h3{
+    color: #01ABCF;
+    font-family: arista,Trebuchet MS,sans-serif;
+    padding: 5px;
+    text-align: center;
+     font-size: 18px;
+}
+#block-aggregator-feed-1 ul{
+    list-style: none;
+    background:  url(../images/bg_doc_utile_rp.jpg) repeat left top ;
+    margin: 0 auto;
+    width: 200px;
+    padding: 20px 0;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    behavior: url(/sites/all/libraries/PIE/PIE.htc);
+    position: relative;
+}
+#block-aggregator-feed-1 ul li{
+    margin: 5px 0;
+    list-style: none;
+
+}
+#block-aggregator-feed-1 li a{
+    text-decoration: none;
+    padding: 2px;
+    display: block;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    behavior: url(/sites/all/libraries/PIE/PIE.htc);
+    position: relative;
+    width: 175px;
+    margin: 0 auto;
+    color: white;
+    background: #E2001A;
+
+}
+#block-aggregator-feed-1 li a:hover{
+      background: white;
+       color: #E2001A;
+    text-decoration: none;
+}

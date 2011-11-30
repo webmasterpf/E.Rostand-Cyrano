@@ -7,7 +7,10 @@ Inclusion des polices en css3
     src: url(../typos/Arista2.0_light.eot); /* IE */
     src: local("Arista"), url(../typos/Arista2.0_light.ttf) format('truetype');/* non-IE */
 }
-
+/*Pour les br,ajout d'une classe clear..'*/
+.clearBoth {clear: both;}
+.clearRight {clear: right;}
+.clearLeft {clear: left;}
 
 html {
  margin: 0;
@@ -50,7 +53,7 @@ ul,li,dl,dd,dt{
 
 /*Contenu de page  CONTENT */
 
-#contentPage, #contentPageActu {
+#contentPage {
 	margin:0 auto;
 	padding:0;
 	width: 990px;
@@ -232,6 +235,9 @@ h6 {
 .col1_layout_730_250{
     width: 730px;
 }
+.col1_layout_370_250_370{
+    width: 370px;
+}
 /*//////////////// COLONNE 2 \\\\\\\\\\\\\\\\*/
 #colonne-2, #middle-content-override{
     float: left;
@@ -251,9 +257,12 @@ h6 {
 .col2_layout_730_250{
     width: 250px;
 }
+.col2_layout_370_250_370{
+    width: 240px;
+}
 /*//////////////// COLONNE 3 \\\\\\\\\\\\\\\\*/
 #colonne-3{
-    float: left;
+    float: right;
     margin: 0;
     padding: 0;
 }
@@ -265,4 +274,49 @@ h6 {
 }
 .col3_layout_18_56_25{
     width: 25%;
+}
+.col3_layout_370_250_370{
+    width: 370px;
+}
+/*\\\\\\\\\\\\\//////////////////
+---------------------------------------------------
+LAYOUT POUR PAGE.TPL PAGE ACTU GLOBALE
+---------------------------------------------------*/
+#content-inner-page-actuGlobale{
+    width: auto;
+    margin:0;
+    float:left;
+    background-color:transparent;
+}
+#middle-content-page-actuGlobale  {
+    width: auto;
+    padding: 5px;
+    float: left;
+
+}
+/*---------------------------------------------------
+LAYOUT POUR NODE.TPL PAGE ACTU GLOBALE
+---------------------------------------------------*/
+
+.pageLycee_content_col_G1{
+    width: 195px;
+    background: transparent;
+    height: 100%;
+    display: table-column;
+
+}
+.pageLycee_content_col_G2{
+    width: 555px;
+    background: transparent;
+    height: 100%;
+    display: table-cell;
+     border-right: 1px solid #F29400;
+     border-left: 1px solid #91127D;
+}
+.pageLycee_content_col_G3{
+    padding: 5px;
+    width: 205px;
+    background: transparent;
+    height: 100%;
+    display: table-cell;
 }

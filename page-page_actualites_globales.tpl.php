@@ -2,7 +2,7 @@
 global $theme_path;
 include ($theme_path.'/includes/inc_header.php');
 ?>
- <!-- ______________________ LAYOUT PAGE MODELE OVERRIDE PAR NODE.TPL CUSTOM _______________________ -->
+ <!-- ______________________ LAYOUT PAGE ACTU GLOBALE OVERRIDE PAR NODE.TPL CUSTOM _______________________ -->
   <!-- ______________________ CONTENU _______________________ -->
 
       <div id="contentPage">
@@ -26,7 +26,7 @@ include ($theme_path.'/includes/inc_header.php');
        <!-- ______________________ CONTENT INNER GLOBAL _______________________ -->
 
 
-        <div id="content-inner-page-MODELE">
+        <div id="content-inner-page-actuGlobale">
 
           <?php if ($mission || $messages || $help || $tabs): ?>
             <div id="content-header">
@@ -46,7 +46,7 @@ include ($theme_path.'/includes/inc_header.php');
             </div> <!-- /#content-header -->
           <?php endif; ?>
 		  <!-- ______________________ CONTENU CENTRAL _______________________ -->
-          <div id="middle-content-page-MODELE">
+          <div id="middle-content-page-actuGlobale">
 
             <?php print $content; ?>
               <?php print $feed_icons; ?>

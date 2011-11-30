@@ -176,9 +176,9 @@ text-decoration:underline;
 #transparency{
 background:none repeat scroll 0 0 #E3001B;
 height:65px;
-bottom:5px;
-left:5px;
-position:absolute;
+bottom:74px;
+left:12px;
+position:relative;
 width:968px;
 z-index:15;
 opacity:0.6;
@@ -187,11 +187,12 @@ opacity:0.6;
 filter : alpha(opacity=60); /* IE < 8 */
 }
 #contenu-diapo{
-position:absolute;
+position:relative;
 bottom: 10%;
 left: 10px;
 color: white;
 z-index:20;
+top: -134px;
 }
 #contenu-diapo h2{
 color: white;
@@ -207,7 +208,7 @@ text-decoration: none;
 height:200px;
 margin:0 auto;
 position:inherit;
-width:978px;
+width:990px;
 }
 #views_slideshow_singleframe_main_diaporama_homepage-block_1{
     padding: 0;
@@ -217,20 +218,4 @@ width:978px;
     z-index:1;
 }
 
-/*
------- Bloc RSS actu association
-*/
-#block-aggregator-feed-1 ul{
-    list-style-position: inside;
-}
-#block-aggregator-feed-1 ul li{
-    list-style-type: circle;
-}
-#block-aggregator-feed-1 a{
-    color: #4F4F4F;
-    text-decoration: none;
-}
-#block-aggregator-feed-1 a:hover{
-    color: #E2001A;
-    text-decoration: underline;
-}
+
