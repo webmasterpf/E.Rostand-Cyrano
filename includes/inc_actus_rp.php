@@ -9,9 +9,9 @@
       
     <?php
 
-$viewname_ag4 = 'Actualites_liste_globale';
-$view = views_get_view ($viewname_ag4);
-$view->set_display('block_4');
+$viewname_ag5 = 'Actualites_liste_globale';
+$view = views_get_view ($viewname_ag5);
+$view->set_display('block_5');
 
 
 //Exécution de le vue
@@ -20,7 +20,7 @@ $view->execute();
 
 if ($view->result) {
   // S'il y a un resultat on récupère le titre (ajoute tag h3, et le contenu)
-  $output = '<div id="bloc_actus_sortie"><h3>'.$view->get_title().'</h3>' . $view->render().'</div>';
+  $output = '<div id="bloc_actus_rp"><h3>'.$view->get_title().'</h3>' . $view->render().'</div>';
 }
 
 //Affiche la vue

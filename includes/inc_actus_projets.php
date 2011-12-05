@@ -9,8 +9,8 @@
       
     <?php
 
-$viewname = 'Actualites_liste_globale';
-$view = views_get_view ($viewname);
+$viewname_ag3 = 'Actualites_liste_globale';
+$view = views_get_view ($viewname_ag3);
 $view->set_display('block_3');
 
 

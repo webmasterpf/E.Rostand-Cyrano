@@ -32,12 +32,20 @@
               global $theme_path;
               include ($theme_path.'/includes/inc_actus_projets.php');
               ?>
+
+             <?php
+              global $theme_path;
+              include ($theme_path.'/includes/inc_actus_rp.php');
+              ?>
         </div>
         <!--______________COLONNE 2________________ -->
          <!-- <pre> <?php //print_r($node); ?> </pre>-->   <!-- listage des variables du $content -->
         <div id="colonne-2" class="col2_layout_370_250_370">
 
-      
+       <?php
+              global $theme_path;
+              include ($theme_path.'/includes/inc_actus_annonces.php');
+              ?>
 
              <?php
 global $theme_path;
