@@ -649,3 +649,51 @@ BLOC FLUX RSS ACTU DE L'ASSO
        color: #E2001A;
     text-decoration: none;
 }
+/***********************************
+    PAGE CLASSE - TABLE
+************************************
+*/
+h1.titre_rouge{
+    color: #E2001A;
+    margin: 5px;
+}
+#table-classes{
+    margin: 10px;
+}
+#table-classes tbody{}
+#table-classes tr{}
+#table-classes td{
+    text-align: center;
+    background: #EFEFEF;
+    display: inline-block;
+    margin: 2px 7px;
+    width: 160px;
+    vertical-align: text-top;
+}
+#table-classes td:hover {
+       -moz-box-shadow: 0 0 2px #000000;
+   -webkit-box-shadow: 0 0 2px #000000;
+   box-shadow: 0 0 2px #000000;
+}
+#table-classes td a{
+    color: #606070;
+    display: block;
+    margin: 2px 0;
+    padding: 3px;
+    text-decoration: none;
+}
+#table-classes td a:hover{
+    background: #E2001A;
+    color: white;
+}
+#table-classes .filefield-icon{
+    display: none;
+}
+
+#table-classes h3 {
+    font-size: 14px;
+    color: #00ACD1;
+    display: block;
+    font-family: Arista,Trebuchet MS,sans-serif;
+    padding: 5px;
+}
