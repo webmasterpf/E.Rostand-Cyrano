@@ -238,6 +238,9 @@ h6 {
 .col1_layout_370_250_370{
     width: 370px;
 }
+.col1_layout_230_380_380{
+    width: 230px;
+}
 /*//////////////// COLONNE 2 \\\\\\\\\\\\\\\\*/
 #colonne-2, #middle-content-override{
     float: left;
@@ -260,6 +263,9 @@ h6 {
 .col2_layout_370_250_370{
     width: 240px;
 }
+.col2_layout_230_380_380{
+    width: 380px;
+}
 /*//////////////// COLONNE 3 \\\\\\\\\\\\\\\\*/
 #colonne-3{
     float: right;
@@ -277,6 +283,9 @@ h6 {
 }
 .col3_layout_370_250_370{
     width: 370px;
+}
+.col3_layout_230_380_380{
+    width: 380px;
 }
 /*\\\\\\\\\\\\\//////////////////
 ---------------------------------------------------

@@ -697,3 +697,40 @@ h1.titre_rouge{
     font-family: Arista,Trebuchet MS,sans-serif;
     padding: 5px;
 }
+
+/*********************************
+----------------------------------
+---- FICHE FORMATION   ---------
+---------------------------------*/
+h1.titre_fiche{
+    margin: 5px;
+}
+#deco-ficheform{
+    
+}
+
+#deco-ficheform img{
+    display: block;
+    margin: 0 auto;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    behavior: url(/sites/all/libraries/PIE/PIE.htc);
+    position: relative;
+}
+
+.content-1{
+    border-right: 1px solid #E2001A;
+    margin: 0 5px 0 0;
+}
+#content-2{}
+
+.content-1 p,#content-2 p{
+    padding: 3px;
+}
+.content-1 h2,#content-2 h2{
+    color: #E2001A;
+}
+.content-1 h3,#content-2 h3{
+    color: #ADC91F;
+}
