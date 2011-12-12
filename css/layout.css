@@ -329,3 +329,46 @@ LAYOUT POUR NODE.TPL PAGE ACTU GLOBALE
     height: 100%;
     display: table-cell;
 }
+/*\\\\\\\\\\\\\//////////////////
+---------------------------------------------------
+LAYOUT POUR PAGE.TPL PAGE VDL GLOBALE
+---------------------------------------------------*/
+#content-inner-page-vdl-liste{
+    width: auto;
+    margin:0;
+    float:left;
+    background-color:transparent;
+}
+#middle-content-page-vdl-liste{
+    width: auto;
+    padding: 5px;
+    float: left;
+  
+
+}
+/*---------------------------------------------------
+LAYOUT POUR NODE.TPL PAGE VDL GLOBALE
+---------------------------------------------------*/
+
+.pageLycee_content_col_G1{
+    width: 195px;
+    background: transparent;
+    height: 100%;
+    display: table-column;
+
+}
+.pageLycee_content_col_G2{
+    width: 555px;
+    background: transparent;
+    height: 100%;
+    display: table-cell;
+     border-right: 1px solid #F29400;
+     border-left: 1px solid #91127D;
+}
+.pageLycee_content_col_G3{
+    padding: 5px;
+    width: 205px;
+    background: transparent;
+    height: 100%;
+    display: table-cell;
+}

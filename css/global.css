@@ -734,3 +734,117 @@ h1.titre_fiche{
 .content-1 h3,#content-2 h3{
     color: #ADC91F;
 }
+#bloc_docs_ficheform{
+    
+    margin: 0 auto;
+    width: 210px;
+}
+#bloc_docs_ficheform h3{
+    background: url("../images/bg_infosplus_rouge.jpg") no-repeat scroll 10px top transparent;
+    color: white;
+    display: block;
+    padding: 5px 5px 12px;
+    text-align: center;
+}
+#bloc_docs_ficheform{
+
+}
+#table-ficheform-docs{
+    background: url("../images/bg_bloc_ivoire_ht.jpg") no-repeat scroll left top transparent;
+    display: block;
+    margin: 0 auto;
+}
+#table-ficheform-docs tbody{
+    display: block;
+    height: 140px;
+    padding: 10px;
+    background: url("../images/bg_bloc_ivoire_bas.jpg") no-repeat scroll left bottom transparent;
+}
+#table-ficheform-docs tr{}
+#table-ficheform-docs td{
+    display: block;
+    width: 190px;
+}
+#table-ficheform-docs a{
+     border-bottom: 1px solid #E2001A;
+    color: #606070;
+    display: block;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    margin:  3px 0;
+}
+#table-ficheform-docs a:hover{
+    color: #E2001A;
+}
+#bloc_docs_ficheform .filefield-icon {
+    display: none;
+}
+/*********************************
+----------------------------------
+---- PAGE VDL NODE.TPL --
+----------- LISTE --------------
+¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤*/
+#colonne-2.vdl_liste{
+    border-left: 1px solid #911381;
+    border-right: 1px solid #02A7D5;
+    padding: 3px;
+}
+
+
+h1.titre_page_vdl{
+    margin: 3px;
+}
+
+#bloc_liste_vdl .views-exposed-form{
+ width: 95%;
+ margin: 0 auto;
+}
+#bloc_liste_vdl .date-views-filter-wrapper{
+    width: auto;
+    min-width: 20%;
+}
+#bloc_liste_vdl span.views-field-name,#bloc_liste_vdl span.views-field-created,#bloc_liste_vdl span.views-field-field-date-evenement-value{
+    font-style: italic;
+    font-size: 10px;
+    padding: 0 5px;
+    text-align: right;
+
+}
+#bloc_liste_vdl span.date-display-single{
+    font-style: italic;
+    font-size: 10px;
+    padding: 0 5px;
+    text-align: right;
+}
+.table_liste_vdl{
+    padding: 5px;
+}
+.table_liste_vdl tbody{}
+.table_liste_vdl tr{
+     margin: 5px 0;
+     border: 0;
+     background: none;
+}
+.table_liste_vdl td{
+     margin: 5px 0;
+    display: block;
+    padding: 3px;
+}
+.table_liste_vdl a{
+        text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+    margin: 0 10px;
+    color: #E2001A;
+}
+.table_liste_vdl a:hover{
+      color: #911381;
+}
+.table_liste_vdl{}
+
+.table_liste_vdl hr{
+    border-top: 1px solid #E2001A;
+    width: 75%;
+    margin: 0 auto;
+}
