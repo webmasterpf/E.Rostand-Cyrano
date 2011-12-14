@@ -261,7 +261,9 @@ $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
 .plycee p{
     padding: 7px;
 }
-.plycee{}
+#colonne-1.plycee{
+    border-right: 1px solid #E2001A;
+}
 .plycee{}
 h1.plycee{
     color: #E2001A;
@@ -735,7 +737,7 @@ h1.titre_fiche{
     color: #ADC91F;
 }
 #bloc_docs_ficheform{
-    
+     padding: 10px 0;
     margin: 0 auto;
     width: 210px;
 }
@@ -847,4 +849,143 @@ h1.titre_page_vdl{
     border-top: 1px solid #E2001A;
     width: 75%;
     margin: 0 auto;
+}
+.deco_vdl{
+    float: right;
+}
+/*********************************
+----------------------------------
+---- PAGE POLE FORMATION NODE.TPL --
+----------- LISTE --------------
+¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤*/
+h1.titre_page-pole{
+    color: #E2001A;
+}
+h3.titre-pole-formation{
+    background: url("../images/bg_titre_pole.jpg") no-repeat scroll left top transparent;
+    color: white;
+    display: block;
+    font-family: Arista,Trebuchet MS,sans-serif;
+    font-size: 16px;
+    height: 30px;
+    margin: 0 auto;
+    padding: 12px 0;
+    text-align: center;
+    width: 300px;
+}
+.table-pole-formations{
+    width: 295px;
+    margin: 0 auto;
+    background: url("../images/bg_ivoire_pole.jpg") no-repeat scroll left top transparent;
+    display: block;
+    padding: 10px 5px;
+}
+.table-pole-formations tbody{
+    
+}
+.table-pole-formations tr{
+    display: block;
+    margin: 0 auto;
+    width: 282px;
+}
+.table-pole-formations td{
+    padding: 5px 11px;
+     width: inherit;
+}
+.table-pole-formations td a{
+    
+}
+.table-pole-formations a{
+    text-decoration: none;
+    color: #606070;
+    font-weight: bold;
+    border-bottom: 1px solid #E3001C;
+    display: block;
+    text-align: center;
+    width: 100%;
+    padding: 10px 0;
+}
+.table-pole-formations a:hover{
+    color: #E3001C;
+}
+.table-pole-formations{}
+/*------------------------------------
+----- CONTENU VDL -------------------*/
+#colonne-1.content_vdl{
+    border-right: 1px solid #E3001C;
+}
+#colonne-1.content_vdl p{
+    padding: 3px;
+}
+#colonne-1.content_vdl a{
+    color: #E3001C;
+    font-weight: bold;
+}
+#colonne-1.content_vdl a:hover{
+    text-decoration: none;
+}
+#colonne-1.content_vdl h2{
+    color: #911381,
+}
+#colonne-1.content_vdl h3{
+    color: #01ABCF;
+}
+/*Documents joints*/
+#table-docs{}
+#table-docs tbody{
+    display: block;
+    height: 140px;
+    padding: 10px;
+
+}
+#table-docs tr{}
+#table-docs td{
+    display: block;
+    width: 190px;
+}
+#bloc_docs_contentVDL .filefield-icon {
+    display: none;
+}
+#bloc_docs_contentVDL h3{
+    color: #01ABCF;
+    font-family: arista,Trebuchet MS,sans-serif;
+    padding: 5px;
+    text-align: center;
+     font-size: 18px;
+}
+#bloc_docs_contentVDL table{
+    background:  url(../images/bg_doc_utile_rp.jpg) repeat left top ;
+    margin: 0 auto;
+    width: 200px;
+    padding: 20px 0;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    behavior: url(/sites/all/libraries/PIE/PIE.htc);
+    position: relative;
+}
+#bloc_docs_contentVDL tr{
+    margin: 5px 0;
+   display: block;
+
+}
+#bloc_docs_contentVDL td a{
+    text-decoration: none;
+    padding: 2px;
+    display: block;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    behavior: url(/sites/all/libraries/PIE/PIE.htc);
+    position: relative;
+    width: 175px;
+    margin: 0 auto;
+    color: white;
+    background: #E2001A;
+
+}
+#bloc_docs_contentVDL td a:hover{
+      background: white;
+       color: #E2001A;
+    text-decoration: none;
 }
