@@ -860,6 +860,7 @@ h1.titre_page_vdl{
 ¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤*/
 h1.titre_page-pole{
     color: #E2001A;
+    text-align: center;
 }
 h3.titre-pole-formation{
     background: url("../images/bg_titre_pole.jpg") no-repeat scroll left top transparent;
@@ -910,7 +911,8 @@ h3.titre-pole-formation{
 }
 .table-pole-formations{}
 /*------------------------------------
------ CONTENU VDL -------------------*/
+----- CONTENU VDL -------------------
+************************************/
 #colonne-1.content_vdl{
     border-right: 1px solid #E3001C;
 }
@@ -925,12 +927,36 @@ h3.titre-pole-formation{
     text-decoration: none;
 }
 #colonne-1.content_vdl h2{
-    color: #911381,
+    color: #911381;
+    padding: 2px 5px;
 }
 #colonne-1.content_vdl h3{
     color: #01ABCF;
+    padding: 2px 5px;
 }
-/*Documents joints*/
+/* Medias pour contenu VDL*/
+#video-vdl{
+    width: 425px;
+    margin: 0 auto;
+    padding: 2px;
+    border: 1px solid #970F7D;
+}
+#galerie-vdl{
+    padding: 5px 0;
+}
+#galerie-vdl h3{
+    text-align: center;
+    color: #970F7D;
+    font-size: 20px;
+    margin: 5px;
+}
+.view-Diapo-vie-du-lycee img{
+    border: 5px solid #fff;
+    -moz-box-shadow: #AAAAAA 0px 0px 2px ;
+    -webkit-box-shadow: #AAAAAA 0px 0px 2px;
+    box-shadow: #AAAAAA 0px 0px 2px;
+}
+/*Documents joints CONTENU VDL*/
 #table-docs{}
 #table-docs tbody{
     display: block;
@@ -979,9 +1005,10 @@ h3.titre-pole-formation{
     behavior: url(/sites/all/libraries/PIE/PIE.htc);
     position: relative;
     width: 175px;
-    margin: 0 auto;
+    margin: 2px 5px;
     color: white;
     background: #E2001A;
+    text-align: center;
 
 }
 #bloc_docs_contentVDL td a:hover{

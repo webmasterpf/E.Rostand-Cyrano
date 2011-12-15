@@ -25,9 +25,12 @@ $view->execute();
 if ($view->result) {
   // S'il y a un resultat on récupère le titre (ajoute tag h3, et le contenu)
   $output = '<div id="pole_2"><h3 class="titre-pole-formation">'.$view->get_title().'</h3>' .$view->preview($viewdisplay_fl2).'</div>';
-}
-
-//Affiche la vue
+  //Affiche la vue si contenu
 print $output;
+}
+//sinon affiche texte vide
+elseif (empty($view->result)) {
+  print $view->display['default']->display_options['empty'];
+}
 
 ?>

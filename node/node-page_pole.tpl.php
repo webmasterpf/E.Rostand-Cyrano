@@ -5,6 +5,11 @@
 <!--______________NODE TPL POUR PAGE.TPL CUSTOM________________ -->
 <div class="node <?php print $classes; ?>" id="node-<?php print $node->nid; ?>">
     <div class="node-inner">
+
+         <?php if ($title): /*copier le titre dans la colonne desirée*/?>
+            <h1 class="titre_page-pole clearBoth"><?php print $title; ?></h1>
+            <?php endif; ?>
+            
         <!--______________COLONNE 1________________ -->
 <?php /* choix du layout selon nombre de colonne
 * .col1_layout_200_590_200{} .col1_layout_330_all{} .col1_layout_18_56_25{} .col1_layout_370_250_370{} .col1_layout_230_380_380{} .col1_layout_730_250{}
@@ -35,9 +40,7 @@
             <span class="submitted"><?php print $submitted; ?></span>
             <?php endif; ?>
 
-               <?php if ($title): /*copier le titre dans la colonne desirée*/?>
-            <h1 class="titre_page-pole"><?php print $title; ?></h1>
-            <?php endif; ?>
+              
             
             <div class="content">
                 <?php   print $node->content['body']['#value'];/*déplacer le contenu dans la colonne désirée*/ ?>
