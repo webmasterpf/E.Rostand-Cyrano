@@ -909,7 +909,12 @@ h3.titre-pole-formation{
 .table-pole-formations a:hover{
     color: #E3001C;
 }
-.table-pole-formations{}
+.table-pole-formations p{
+    display: block;
+    padding: 0 10px;
+    text-align: center;
+    width: 265px;
+}
 /*------------------------------------
 ----- CONTENU VDL -------------------
 ************************************/
