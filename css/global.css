@@ -249,6 +249,58 @@ padding:10px 0;
 	padding: 0;
 	list-style:none;
 }
+/*********************************
+----------------------------------
+---- RESEAUX SOCIAUX Service links
+---------------------------------*/
+.service-links, #content-bottom-home .service-links{
+    background: none repeat scroll 0 0 #EFEFEF;
+    display: block;
+    margin: 0 auto;
+    padding: 2px;
+    text-align: center;
+    width: 850px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+   behavior: url(/sites/all/libraries/PIE/PIE.htc);
+   position: relative;
+}
+.service-links a{
+    margin: 0 5px;
+    color: #F29400;
+}
+.service-links a:hover{
+    text-decoration: none;
+}
+.service-links{}
+/* Bloc Follow sur Homepage  avec module Follow*/
+#block-follow-site h3{
+    font-family: arista,Trebuchet MS,sans-serif;
+    padding: 5px;
+    text-align: center;
+    font-size: 18px;
+    color: #94117E;
+}
+#block-follow-site a{
+    color:#F29400;
+    text-decoration: none;
+}
+#block-follow-site a:hover{
+    text-decoration: underline;
+}
+#block-follow-site{
+    background: #ECECED;
+    border: 1px solid #606070;
+    padding: 5px;
+    margin: 0 auto;
+    width: 350px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+   behavior: url(/sites/all/libraries/PIE/PIE.htc);
+}
+#block-follow-site{}
 /*------------------------------------
 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
    STYLES POUR NODE CUSTOM
@@ -322,6 +374,10 @@ h1.plycee{
     margin: 0 auto;
     text-align: center;
     width: 200px;
+}
+#media-lycee{
+    width: 90%;
+    margin: 0 auto;
 }
 /*********************************
 ----------------------------------
@@ -961,7 +1017,7 @@ h3.titre-pole-formation{
     -webkit-box-shadow: #AAAAAA 0px 0px 2px;
     box-shadow: #AAAAAA 0px 0px 2px;
 }
-/*Documents joints CONTENU VDL*/
+/*Documents joints CONTENU VDL et ACTUALITE*/
 #table-docs{}
 #table-docs tbody{
     display: block;
@@ -974,17 +1030,17 @@ h3.titre-pole-formation{
     display: block;
     width: 190px;
 }
-#bloc_docs_contentVDL .filefield-icon {
+#bloc_docs_contentVDL .filefield-icon,#bloc_docs_contentActu .filefield-icon{
     display: none;
 }
-#bloc_docs_contentVDL h3{
+#bloc_docs_contentVDL h3, #bloc_docs_contentActu h3{
     color: #01ABCF;
     font-family: arista,Trebuchet MS,sans-serif;
     padding: 5px;
     text-align: center;
      font-size: 18px;
 }
-#bloc_docs_contentVDL table{
+#bloc_docs_contentVDL table, #bloc_docs_contentActu table{
     background:  url(../images/bg_doc_utile_rp.jpg) repeat left top ;
     margin: 0 auto;
     width: 200px;
@@ -995,12 +1051,12 @@ h3.titre-pole-formation{
     behavior: url(/sites/all/libraries/PIE/PIE.htc);
     position: relative;
 }
-#bloc_docs_contentVDL tr{
+#bloc_docs_contentVDL tr, #bloc_docs_contentActu tr{
     margin: 5px 0;
    display: block;
 
 }
-#bloc_docs_contentVDL td a{
+#bloc_docs_contentVDL td a, #bloc_docs_contentActu td a{
     text-decoration: none;
     padding: 2px;
     display: block;
@@ -1016,7 +1072,7 @@ h3.titre-pole-formation{
     text-align: center;
 
 }
-#bloc_docs_contentVDL td a:hover{
+#bloc_docs_contentVDL td a:hover, #bloc_docs_contentActu td a:hover{
       background: white;
        color: #E2001A;
     text-decoration: none;

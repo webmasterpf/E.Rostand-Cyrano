@@ -246,8 +246,12 @@ display:none;
 /***************************Differencier les menus: ajouter l'active TRAIL ***********************************/
 
 ul#nice-menu-1 li.active-trail>a, ul#nice-menu-2 li.active-trail>a{
-  color:#E10279;
+  color:#E2001A;
   font-weight: bold;
+}
+!ul#nice-menu-1 .active-trail ul, !ul#nice-menu-2 .active-trail ul {
+display: block !important;
+visibility: visible !important;
 }
 /*********************************************************************************************/
 /*********************************************************************************************/

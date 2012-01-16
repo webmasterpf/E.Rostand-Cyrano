@@ -27,7 +27,17 @@
          * Possible 2 colonnes avec derniere option;alors supprimer colonne-3
          */?>
         <div id="colonne-1" class="col1_layout_730_250 plycee">
-            <?php
+  <?php if ($title): /*copier le titre dans la colonne desirée*/?>
+            <h1 class="titre_page plycee"><?php print $title; ?></h1>
+            <?php endif; ?>
+
+               <?php print $picture; ?>
+
+            <?php if ($submitted): ?>
+            <span class="submitted"><?php print $submitted; ?></span>
+            <?php endif; ?>
+
+ <?php
 
 $viewname_ci1 = 'Classes_infos';
 $view = views_get_view ($viewname_ci1);
@@ -47,15 +57,7 @@ if ($view->result) {
 print $output;
 
 ?>
-            <?php if ($title): /*copier le titre dans la colonne desirée*/?>
-            <h1 class="titre_page plycee"><?php print $title; ?></h1>
-            <?php endif; ?>
-
-               <?php print $picture; ?>
-
-            <?php if ($submitted): ?>
-            <span class="submitted"><?php print $submitted; ?></span>
-            <?php endif; ?>
+          
 
             <div class="content">
 

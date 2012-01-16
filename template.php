@@ -15,6 +15,21 @@ function phptemplate_preprocess(&$vars, $hook)
 }
 ?>
 <?php
+//Pour afficher une seule taxonomie non cliquable - http://drupal.org/node/823918
+// Solution interessante aussi : http://drupal.org/node/133223
+function THEME_NAME_preprocess_node(&$vars) {
+  $node = $vars['node'];
+  $vars['template_file'] = 'node-'. $node->nid;
+  $wanted_vid = 7;//Choisir ici le vid voulu,
+  foreach($node->taxonomy as $term) {
+    if ( $wanted_vid == $term->vid ) {
+      $vars['my_terms'] .= $term->name; //You would need to format this the way you want it displayed, or pass it to a theme function
+      //Changer le nom de la fonction si l'on ne se sert pas toujours du meme vid
+    }
+  }
+}
+?>
+<?php
 /*Permet d'attribuer un template de node différent selon terme de taxo et type de contenu
  * - NE PAS OUBLIER DE CHANGER LE NOM DU THEME !!!___
 http://drupal.org/node/723544 ET http://drupalfr.org/forum/support/developpement/26735-theming-template-commun-95*/

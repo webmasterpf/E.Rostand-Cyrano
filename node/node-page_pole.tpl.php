@@ -17,6 +17,12 @@
 * .col3_layout_200_590_200{} .col3_layout_330_all{} .col3_layout_18_56_25{} .col3_layout_370_250_370{} .col3_layout_230_380_380{}
 * Possible 2 colonnes avec derniere option;alors supprimer colonne-3
          */?>
+        
+        <div class="content">
+        <?php   print $node->content['body']['#value'];/*déplacer le contenu dans la colonne désirée*/ ?>
+        </div>
+
+
         <div id="colonne-1" class="col1_layout_330_all">
          
    <?php
@@ -43,13 +49,16 @@
               
             
             <div class="content">
-                <?php   print $node->content['body']['#value'];/*déplacer le contenu dans la colonne désirée*/ ?>
+                
 
             <?php
               global $theme_path;
-              include ($theme_path.'/includes/inc_pole_formation_2.php');
+              include ($theme_path.'/includes/inc_pole_formation_3.php');
               ?>
-
+<?php
+              global $theme_path;
+              include ($theme_path.'/includes/inc_region_col_G2.php');
+              ?>
 
             </div>
 
@@ -59,9 +68,12 @@
         <div id="colonne-3" class="col3_layout_330_all">
         <?php
               global $theme_path;
-              include ($theme_path.'/includes/inc_pole_formation_3.php');
+              include ($theme_path.'/includes/inc_pole_formation_2.php');
               ?>          
-
+<?php
+              global $theme_path;
+              include ($theme_path.'/includes/inc_region_col_G3.php');
+              ?>
 
         </div>
             <!--______________LIENS MENU et TAXO________________ -->

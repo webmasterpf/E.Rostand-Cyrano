@@ -26,6 +26,14 @@
             <div class="content">
                 <?php   print $node->content['body']['#value'];/*déplacer le contenu dans la colonne désirée*/ ?>
             </div>
+
+               <?php /*Pour inclure un media externe type youtube ou flickr*/
+               if ($node->field_video_lycee[0]['view']): ?>
+            <div id="media-lycee">
+                    <?php  print $node->field_video_lycee[0]['view']  ?>
+            </div>
+            <?php endif;?>
+            
   <!--***********!!!!!!  EXEMPLE DE CHAMP CCK INCLUS AVEC CONDITION !!!!!!!!************ -->
             <?php if ($node->nom_du_champ[0]['view']): ?>
             <div id="nom-css">
@@ -46,7 +54,7 @@
               global $theme_path;
               include ($theme_path.'/includes/inc_lycee_doc_utile.php');
               ?>
-
+            <br/>
  <?php
               global $theme_path;
               include ($theme_path.'/includes/inc_rostand_actus.php');

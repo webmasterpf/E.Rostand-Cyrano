@@ -26,11 +26,11 @@
               endif;
               ?>
 
-            <?php if ($node->field_deco_ficheform[0]['view']): ?>
+            <?php //if ($node->field_deco_ficheform[0]['view']): ?>
            <div id="deco-ficheform">
                     <?php  print $node->field_deco_ficheform[0]['view']  ?>
             </div>
-            <?php endif;?>
+            <?php //endif;?>
 
 
              <?php

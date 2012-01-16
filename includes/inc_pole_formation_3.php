@@ -17,7 +17,7 @@ $view = views_get_view ($viewname_fl3);
 $viewdisplay_fl3 = $view->set_display('block_3');
 //$args_ldj1 = $view->set_arguments(array($node->nid));
 
-$emptyTextVue = $view->display('block_3')->display_options['empty'];
+//$emptyTextVue = $view->display('block_3')->display_options['empty'];
 $emptyText = $view->display_handler->set_option('empty','<div class="table-pole-formations"><p>Nous ne proposons pas de formation de ce type pour le moment.</p></div>');
 
 //Exécution de le vue
@@ -35,7 +35,7 @@ print $output;
 elseif (empty($view->result)) {
     //Formatage du texte vide,ajout du titre de la vue
      $outputEmpty = '<div id="pole_3"><h3 class="titre-pole-formation">'.$view->get_title().'</h3>' .$emptyText.'<br>'.$emptyTextVue.'</div>';
-     drupal_set_message('$EmptyTextVue : '.$emptyTextVue,'status');
+     //drupal_set_message('$EmptyTextVue : '.$emptyTextVue,'status');
      //Affichage du texte vide
   print $outputEmpty;
 }

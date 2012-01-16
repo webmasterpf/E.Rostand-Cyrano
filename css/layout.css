@@ -130,7 +130,11 @@ background:transparent;
 width:100%;
 margin: 0 auto;
 }
-
+#content-bottom-home{
+background:transparent;
+width:100%;
+margin: 5px 0;
+}
 /*Bas de page  FOOTER*/
 
 #footer{
