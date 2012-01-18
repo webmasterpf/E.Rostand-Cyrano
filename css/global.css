@@ -301,6 +301,32 @@ padding:10px 0;
    behavior: url(/sites/all/libraries/PIE/PIE.htc);
 }
 #block-follow-site{}
+/****------------------***********
+        FOOTER RICHE
+*******----------------***********/
+#table-footer-riche{}
+#table-footer-riche{
+   margin: 0 auto;
+    padding: 15px 10px;
+    width: 95%;
+    display: block;
+}
+#table-footer-riche tbody{
+    background: #EFEFEF;
+    display: block;
+}
+#table-footer-riche tr{
+    margin: 5px 0;
+    display: block;
+}
+#table-footer-riche td{
+    margin: 0 5px;
+    display: inline-block;
+}
+#table-footer-riche a{}
+#table-footer-riche a:hover{}
+#table-footer-riche{}
+
 /*------------------------------------
 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
    STYLES POUR NODE CUSTOM
@@ -317,6 +343,17 @@ $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
     border-right: 1px solid #E2001A;
 }
 .plycee{}
+.plycee a{
+    text-decoration: none;
+    color: #E2001A;
+}
+.plycee a:hover{
+    text-decoration: underline;
+}
+.plycee table{
+    margin: 5px;
+    text-align: center;
+}
 h1.plycee{
     color: #E2001A;
     margin: 5px;
@@ -376,7 +413,7 @@ h1.plycee{
     width: 200px;
 }
 #media-lycee{
-    width: 90%;
+    width: 60%;
     margin: 0 auto;
 }
 /*********************************
@@ -770,6 +807,7 @@ h1.titre_fiche{
 #deco-ficheform img{
     display: block;
     margin: 0 auto;
+    border: 1px solid #E0001A;
     -moz-border-radius: 5px;
     border-radius: 5px;
     -webkit-border-radius: 5px;

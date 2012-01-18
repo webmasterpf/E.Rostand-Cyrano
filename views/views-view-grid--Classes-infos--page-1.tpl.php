@@ -27,9 +27,7 @@
          * Possible 2 colonnes avec derniere option;alors supprimer colonne-3
          */?>
         <div id="colonne-1" class="col1_layout_730_250 plycee">
-  <?php if ($title): /*copier le titre dans la colonne desirée*/?>
-            <h1 class="titre_page plycee"><?php print $title; ?></h1>
-            <?php endif; ?>
+
 
                <?php print $picture; ?>
 
