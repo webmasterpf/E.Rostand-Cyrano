@@ -76,14 +76,19 @@ include ($theme_path.'/includes/inc_header.php');
 
        
 		  <!-- ______________________ COLONNE DROITE _______________________ -->
-        <?php if ($right): ?>
+       
          <!--d�but du contenu droit -->
 		<div id="right-content">
 			
-				
+	 <?php if ($right): ?>
             <?php print $right; ?>
+ <?php endif; ?>
+                 <?php
+              global $theme_path;
+              include ($theme_path.'/includes/inc_rostand_actus.php');
+              ?>
         </div>
-        <?php endif; ?> <!-- /sidebar-right -->
+         <!-- /sidebar-right -->
 
    
     	 <br clear="all"/>

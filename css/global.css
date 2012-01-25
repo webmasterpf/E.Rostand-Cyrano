@@ -326,7 +326,14 @@ padding:10px 0;
 #table-footer-riche a{}
 #table-footer-riche a:hover{}
 #table-footer-riche{}
-
+/*--- PRINT VERSION ----*/
+a.print-page, a.print-pdf{
+    text-decoration: none;
+    color: #911381;
+}
+a:hover.print-page, a:hover.print-pdf{
+    text-decoration: underline;
+}
 /*------------------------------------
 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
    STYLES POUR NODE CUSTOM
@@ -469,6 +476,12 @@ h1.plycee{
 ----------------------------------
 ---- PAGE ACTU GLOBALE   ---------
 ---------------------------------*/
+.actu-txt-vide{}
+.actu-txt-vide p{
+    padding: 25px 5px;
+    text-align: center;
+}
+.actu-txt-vide{}
 #bloc_actus_projet,#bloc_actus_sortie{
         background:  url(../images/bg_bloc_rouge_ht.jpg) no-repeat left top ;
         width: 354px;
@@ -1114,4 +1127,42 @@ h3.titre-pole-formation{
       background: white;
        color: #E2001A;
     text-decoration: none;
+}
+/*-------------------------------------
+-----  ARCHIVES ACTUALITES --------
+-------------------------------------*/
+.table_archives_actus{
+    padding: 5px;
+}
+.table_archives_actus tbody{}
+.table_archives_actus tr{
+     margin: 5px 0;
+     border: 0;
+     background: none;
+}
+.table_archives_actus td{
+     margin: 5px 0;
+    display: block;
+    padding: 3px;
+}
+.table_archives_actus a{
+        text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+    margin: 0 10px;
+    color: #E2001A;
+}
+.table_archives_actus a:hover{
+      color: #911381;
+}
+.table_archives_actus{}
+
+.table_archives_actus hr{
+    border-top: 1px solid #E2001A;
+    width: 75%;
+    margin: 0 auto;
+}
+.table_archives_actus img{
+    float: right;
+    border: 2px solid #EFEFEF;
 }

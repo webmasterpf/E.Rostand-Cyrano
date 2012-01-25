@@ -12,7 +12,7 @@
 $viewname_ag4 = 'Actualites_liste_globale';
 $view = views_get_view ($viewname_ag4);
 $view->set_display('block_4');
-$emptyText = $view->display_handler->set_option('empty','<div class="ma-classe"><p>Pas de contenu à afficher en ce moment.</p></div>');
+$emptyText = $view->display_handler->set_option('empty','<div class="actu-txt-vide"><p>Pas de contenu à afficher en ce moment.</p></div>');
 
 //Exécution de le vue
 $view->pre_execute();

@@ -40,6 +40,11 @@
               global $theme_path;
               include ($theme_path.'/includes/inc_region_col_G1.php');
               ?>
+
+            <?php if ($links): ?>
+        <div class="links"> <?php print $links; ?></div>
+        <?php endif; ?>
+        
         </div>
         <!--______________COLONNE 2________________ -->
          <!-- <pre> <?php //print_r($node); ?> </pre>-->   <!-- listage des variables du $content -->
@@ -73,9 +78,7 @@
         <div class="taxonomy"><?php //print $terms; ?></div>
         <?php endif;?>
 
-        <?php if ($links): ?>
-        <div class="links"> <?php //print $links; ?></div>
-        <?php endif; ?>
+        
 
     </div> <!-- /node-inner -->
 </div> <!-- /node-->
