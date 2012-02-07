@@ -58,8 +58,9 @@ include ($theme_path.'/includes/inc_header.php');
           <?php endif; ?>
 	
 	
-	 </div> <!-- /mainPage -->
+	 
      <?php
 global $theme_path;
 include ($theme_path.'/includes/inc_footer.php');
 ?>
+</div> <!-- /mainPage -->

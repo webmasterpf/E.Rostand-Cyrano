@@ -14,7 +14,7 @@
          */?>
         <div id="colonne-1" class="col1_layout_730_250 content_vdl">
             <?php if ($title): /*copier le titre dans la colonne desirée*/?>
-            <h1 class="titre_page"><?php print $title; ?></h1>
+            <h1 class="titre_actu"><?php print $title; ?></h1>
 
                   <?php print $picture; ?>
 
@@ -23,7 +23,18 @@
             <?php endif; ?>
 
             <div class="content">
-                <?php   print $node->content['body']['#value'];/*déplacer le contenu dans la colonne désirée*/ ?>
+           <?php
+              global $theme_path;
+              include ($theme_path.'/includes/inc_illus_content_actu.php');
+              ?>
+
+       <?php   print $node->content['body']['#value'];/*déplacer le contenu dans la colonne désirée*/ ?>
+
+         
+
+        </div><!-- /content -->
+
+                
 
                       <?php if ($node->field_video_vdl[0]['view']): ?>
             <div id="video-vdl">
@@ -36,19 +47,14 @@
                     <?php  print $node->field_choix_galerie_vdl[0]['view']  ?>
             </div>
             <?php endif;?>
-
-
-
-
-            </div>
-
-            
-            <?php endif; ?>
+    <?php endif; ?>
              <?php
               global $theme_path;
               include ($theme_path.'/includes/inc_region_col_G1.php');
               ?>
-        </div>
+            </div><!-- /colonne-1 -->
+    
+      
         <!--______________COLONNE 2________________ -->
          <!-- <pre> <?php //print_r($node); ?> </pre>-->   <!-- listage des variables du $content -->
         <div id="colonne-2" class="col2_layout_730_250">
@@ -59,7 +65,7 @@
               global $theme_path;
               include ($theme_path.'/includes/inc_contenuActu_docs.php');
               ?>
-
+<br/>
           <?php
               global $theme_path;
               include ($theme_path.'/includes/inc_rostand_actus.php');

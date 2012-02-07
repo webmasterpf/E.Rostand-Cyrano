@@ -472,6 +472,59 @@ h1.plycee{
     background: #E2001A;
     color: white;
 }
+/*Liste pour homepage*/
+.actus-hp{
+    text-align: center;
+    font-family: Arista,Trebuchet MS,sans-serif;
+}
+#BasGaucheHP h3.title{
+    text-align: center;
+    font-family: Arista,Trebuchet MS,sans-serif;
+    display: block;
+}
+
+#table-actus-hp{
+    width: 490px;
+    margin: 0 auto;
+    border: 0;
+}
+#table-actus-hp thead th{
+    border-bottom: 3px solid #AEC81F;
+}
+#table-actus-hp tbody{}
+#table-actus-hp tr{
+    margin: 3px;
+
+
+}
+#table-actus-hp td{
+    background: white;
+    border: 0;
+    margin: 2px 0;
+    padding: 5px;
+    display: block;
+    border-bottom: 1px solid #E2001A;
+}
+#table-actus-hp td:hover{
+    background: #E2001A;
+}
+#table-actus-hp p{}
+#table-actus-hp a{
+    color: #606070;
+    text-decoration: none;
+    font-weight: bold;
+    text-align: center;
+    display: block;
+}
+#table-actus-hp a:hover{
+    text-decoration: underline;
+    color: white;
+}
+#table-actus-hp span.date-display-single{
+    text-align: right;
+    float: right;
+    font-style: italic;
+}
 /*********************************
 ----------------------------------
 ---- PAGE ACTU GLOBALE   ---------
@@ -1023,8 +1076,17 @@ h3.titre-pole-formation{
     width: 265px;
 }
 /*------------------------------------
------ CONTENU VDL -------------------
+----- CONTENU VDL ET ACTU---------------
 ************************************/
+h1.titre_actu{
+    text-align: center;
+    color: #93117E;
+}
+#illus-actu img{
+    margin: 20px;
+    float: right;
+    border: 2px solid #01AAD1;
+}
 #colonne-1.content_vdl{
     border-right: 1px solid #E3001C;
 }

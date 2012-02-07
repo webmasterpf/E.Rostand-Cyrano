@@ -11,7 +11,7 @@ $viewname_ldj2 = 'Liste_docs_joints';
 $view = views_get_view ($viewname_ldj2);
 $viewdisplay = $view->set_display('block_2');
 $args_ldj2 = $view->set_arguments(array($node->nid));
-$emptyText = $view->display_handler->set_option('empty','<div class="table-pole-formations"><p>Pas de documents joints.</p></div>');
+$emptyText = $view->display_handler->set_option('empty','<div class="bloc_docs_contentVDL"><p>Pas de documents joints.</p></div>');
 
 //Exécution de le vue
 $view->pre_execute();
@@ -27,7 +27,7 @@ print $output;
 //sinon affiche texte vide
 elseif (empty($view->result)) {
     //Formatage du texte vide,ajout du titre de la vue
-     $outputEmpty = '<div id="pole_3"><h3 class="titre-pole-formation">'.$view->get_title().'</h3>'.$emptyText.'</div>';
+     $outputEmpty = '<div id="bloc_docs_contentVDL"><h3 class="#">'.$view->get_title().'</h3>'.$emptyText.'</div>';
     // drupal_set_message('$EmptyTextVue : '.$emptyTextVue,'status');
      //Affichage du texte vide
   print $outputEmpty;

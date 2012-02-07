@@ -59,7 +59,7 @@
               global $theme_path;
               include ($theme_path.'/includes/inc_contenuEntreprise_docs.php');
               ?>
-
+<br/>
           <?php
               global $theme_path;
               include ($theme_path.'/includes/inc_rostand_actus.php');

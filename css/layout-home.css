@@ -133,7 +133,7 @@ text-transform: uppercase;
 	margin:auto;
 	width:990px;
 	clear:none;
-        background: url(../images/bg_content_etoile.gif) no-repeat left bottom;
+        background: white url(../images/bg_content_etoile.gif) no-repeat left bottom;
 	
 }
 /********************/
@@ -174,7 +174,7 @@ text-decoration:underline;
 }
 /*---DIAPORAMA HOMEPAGE TEXTE DYNAMIQUE----*/
 #transparency{
-background:none repeat scroll 0 0 #E3001B;
+background:none repeat scroll 0 0;
 height:65px;
 bottom:74px;
 left:12px;
@@ -217,5 +217,23 @@ width:990px;
     position: relative;
     z-index:1;
 }
-
+/*-- DEFILANT ACCUEIL --*/
+#annonce{
+    color: #E2017B;
+    display: block;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0 auto;
+    padding: 11px 0 0;
+    text-align: center;
+    width: 990px;
+}
+#annonce a{
+    color: #93117E;
+    text-decoration: none;
+    font-weight: bold;
+}
+#annonce a:hover{
+    text-decoration: underline;
+}
 

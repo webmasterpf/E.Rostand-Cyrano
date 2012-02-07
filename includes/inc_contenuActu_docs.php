@@ -11,7 +11,7 @@ $viewname_ldj3 = 'Liste_docs_joints';
 $view = views_get_view ($viewname_ldj3);
 $viewdisplay = $view->set_display('block_3');
 $args_ldj3 = $view->set_arguments(array($node->nid));
-$emptyText = $view->display_handler->set_option('empty','<div class="ma-classe"><p>Pas de documents joints.</p></div>');
+$emptyText = $view->display_handler->set_option('empty','<div class="actu-txt-vide"><p>Pas de documents joints.</p></div>');
 
 //Exécution de le vue
 $view->pre_execute();
@@ -20,7 +20,6 @@ $view->execute();
 if (!empty($view->result)) {
   // S'il y a un resultat on récupère le titre (ajoute tag h3, et le contenu)
   $output = '<div id="bloc_docs_contentActu"><h3>'.$view->get_title().'</h3>' .$view->preview($viewdisplay, $args_ldj3).'</div>';
-
 //Affiche la vue
 print $output;
 }
