@@ -29,6 +29,7 @@
         <?php foreach ($columns as $column_number => $item): ?>
           <td class="<?php print $column_classes[$row_number][$column_number]; ?>">
             <?php print $item; ?>
+              <hr class="sep-liste-pole"/>
           </td>
         <?php endforeach; ?>
       </tr>

@@ -3,7 +3,7 @@
 *------------------------------------------------------*/
 
 /*------------------------------------------------*
- *---  Provence Formation Janv. 2010 --*
+ *---  Provence Formation Lycée E.Rostand Janv. 2012 --*
  *------------------------------------------------*/
 
 /*------- EFFETS VISUELS GENERIQUES--------------*/
@@ -1048,10 +1048,12 @@ h3.titre-pole-formation{
     display: block;
     margin: 0 auto;
     width: 282px;
+    
 }
 .table-pole-formations td{
     padding: 5px 11px;
-     width: inherit;
+     width: 91%;
+     display: block;
 }
 .table-pole-formations td a{
     
@@ -1060,7 +1062,7 @@ h3.titre-pole-formation{
     text-decoration: none;
     color: #606070;
     font-weight: bold;
-    border-bottom: 1px solid #E3001C;
+    
     display: block;
     text-align: center;
     width: 100%;
@@ -1074,6 +1076,11 @@ h3.titre-pole-formation{
     padding: 0 10px;
     text-align: center;
     width: 265px;
+}
+hr.sep-liste-pole{
+    border-bottom: 1px solid #E3001C;
+     width: 75%;
+    margin: 0 auto;
 }
 /*------------------------------------
 ----- CONTENU VDL ET ACTU---------------
