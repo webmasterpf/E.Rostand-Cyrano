@@ -15,7 +15,7 @@
         <div id="colonne-1" class="col1_layout_730_250 content_vdl">
             <?php if ($title): /*copier le titre dans la colonne desirée*/?>
             <h1 class="titre_actu"><?php print $title; ?></h1>
-
+<?php endif; ?>
                   <?php print $picture; ?>
 
             <?php if ($submitted): ?>
@@ -34,7 +34,7 @@
 
         </div><!-- /content -->
 
-                
+       <br clear="all"/>        
 
                       <?php if ($node->field_video_vdl[0]['view']): ?>
             <div id="video-vdl">
@@ -47,7 +47,7 @@
                     <?php  print $node->field_choix_galerie_vdl[0]['view']  ?>
             </div>
             <?php endif;?>
-    <?php endif; ?>
+    
              <?php
               global $theme_path;
               include ($theme_path.'/includes/inc_region_col_G1.php');
