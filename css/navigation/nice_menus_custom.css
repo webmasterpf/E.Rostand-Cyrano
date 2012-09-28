@@ -219,16 +219,7 @@ ul.nice-menu-down li.over,
 ul.nice-menu-down li li.menuparent,
 /* Repeat for Garland header. */
 #header-region ul.nice-menu-down li li.menuparent {
-
-
-
-
-
-
-
-
-
-  background: #eee url(arrow-right.png) right center no-repeat; /* LTR */
+ background: #eee url(arrow-right.png) right center no-repeat; /* LTR */
 }
 
 ul.nice-menu-down li li.menuparent:hover,

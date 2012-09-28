@@ -172,19 +172,19 @@ text-decoration:none;
 #BasGaucheHP a:hover,#BasDroitHP a:hover{
 text-decoration:underline;
 }
-/*---DIAPORAMA HOMEPAGE TEXTE DYNAMIQUE----*/
+/*---DIAPORAMA HOMEPAGE TEXTE DYNAMIQUE  PANORAMIQUE----*/
 #transparency{
-background:none repeat scroll 0 0;
+background:none repeat scroll 0 0 #F29400;/*Couleur du fond*/
 height:65px;
-bottom:74px;
+bottom:10px;
 left:12px;
-position:relative;
+position:absolute;
 width:968px;
 z-index:15;
-opacity:0.6;
--moz-opacity : 0.6;
--ms-filter: "alpha(opacity=60)"; /* IE 8 */
-filter : alpha(opacity=60); /* IE < 8 */
+opacity:0.0;/*0.6*/
+-moz-opacity : 0.0;
+-ms-filter: "alpha(opacity=00)"; /* IE 8 */
+filter : alpha(opacity=00); /* IE < 8 */
 }
 #contenu-diapo{
 position:relative;
@@ -192,7 +192,7 @@ bottom: 10%;
 left: 10px;
 color: white;
 z-index:20;
-top: -134px;
+top: -40px;
 }
 #contenu-diapo h2{
 color: white;
@@ -208,7 +208,7 @@ text-decoration: none;
 height:200px;
 margin:0 auto;
 position:inherit;
-width:990px;
+width:978px;
 }
 #views_slideshow_singleframe_main_diaporama_homepage-block_1{
     padding: 0;
@@ -236,4 +236,3 @@ width:990px;
 #annonce a:hover{
     text-decoration: underline;
 }
-

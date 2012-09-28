@@ -93,10 +93,7 @@ p{
     margin: 0;
 }
 /*TABLES STYLES DIVERS*/
-.table_generik{
-    border: 0px solid black;
-    width: 95%;
-}
+.table_generik{border: 0px solid black;width: 75%;margin: 0 auto;}
 .table_generik tr{
     border: 0px solid black;
 }
@@ -358,7 +355,7 @@ $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
     text-decoration: underline;
 }
 .plycee table{
-    margin: 5px;
+    margin: 5px auto;
     text-align: center;
 }
 h1.plycee{
@@ -1084,9 +1081,12 @@ hr.sep-liste-pole{
 /*------------------------------------
 ----- CONTENU VDL ET ACTU---------------
 ************************************/
-h1.titre_actu{
+h1.titre_actu, h1.titre_page{
+   color: #93117E;
+    display: block;
+    margin: 0 auto;
     text-align: center;
-    color: #93117E;
+    width: 470px;
 }
 #illus-actu img{
     margin: 20px;
@@ -1114,6 +1114,7 @@ h1.titre_actu{
     color: #01ABCF;
     padding: 2px 5px;
 }
+#colonne-1.content_vdl strong{color: #4e4d5e;}
 /* Medias pour contenu VDL*/
 #video-vdl{
     width: 425px;
