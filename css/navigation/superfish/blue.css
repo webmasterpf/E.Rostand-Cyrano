@@ -1,0 +1,134 @@
+/* 2012 Oct - Override de la CSS du Style Blue customisé pour PF
+--------------------------------------------------------------------------
+Possible d'utilser tous les types de menus, même le megamenu de Superfish
+--------------------------------------------------------------------------
+Permet d'utiliser des Element Conteneur pour les rubriques = NO
+Active trail sur élément de la rubrique = OK
+*/
+.sf-menu.sf-style-blue {/*Bloc UL du menu*/
+  float: left;
+  margin: 8px 0;
+  padding: 0;
+  background: #EFEFEF;
+  width: 100%;
+}
+.sf-menu.sf-style-blue.sf-navbar {
+  width: 100%;
+}
+.sf-menu.sf-style-blue ul {
+  padding-left: 0;
+}
+.sf-menu.sf-style-blue a{
+ border: none;
+  width: 130px;/*largeur des a*/
+  height: 2.4em;/*hauteur des a*/
+  text-align: center;
+  text-transform:uppercase;
+  font-weight: bold;
+  color: #606070;/*couleur des a *//*violet : #95107D vert :#AEC721 rose :#E1017B anthracite : #606070*/
+  padding: 5px;
+  text-decoration: none;
+  line-height: 1.3em;
+}
+.sf-menu.sf-style-blue a.sf-with-ul{
+  padding-right: 2.25em;
+}
+.sf-menu.sf-style-blue.rtl a.sf-with-ul {
+  padding-left: 2.25em;
+  padding-right: 1em;
+}
+.sf-menu.sf-style-blue.sf-navbar a {
+  border: 0;
+}
+.sf-menu.sf-style-blue span.sf-description {
+  color: #13a;
+  display: block;
+  font-size: 0.8em;
+  line-height: 1.5em;
+  margin: 5px 0 0 5px;
+  padding: 0;
+}
+.sf-menu.sf-style-blue li,
+.sf-menu.sf-style-blue.sf-navbar {
+  background: #EFEFEF;/*Bg des li du menu*/
+  width: auto;/*Largeur des li de 1er niveau */
+}
+.sf-menu.sf-style-blue li li {
+  background: #EFEFEF;/*Bg des liens li li sous-rubrique*/
+  width: 170px;/*Largeur des li de 2nd niveau*/
+}
+.sf-menu.sf-style-blue li li li {
+  background: #EFEFEF;/*Bg des li items sous-rubrique*/
+}
+.sf-menu.sf-style-blue li:hover,
+.sf-menu.sf-style-blue li.sfHover,
+.sf-menu.sf-style-blue li.active a,
+.sf-menu.sf-style-blue a:focus,
+.sf-menu.sf-style-blue a:hover,
+.sf-menu.sf-style-blue a:active,
+.sf-menu.sf-style-blue.sf-navbar li li,
+span.menu-item-container{/*hover des li*/
+  background: #D0D1D2;
+  color: #E2001A;/*couleur des a *//*violet : #95107D vert :#AEC721 rose :#E1017B anthracite : #606070 rouge:#E2001A*/
+}
+/*Rubrique active - Active Trail*/
+.sf-menu.sf-style-blue li.active-trail,.sf-menu.sf-style-blue li.active-trail > a{color: #E2001A;background: #D0D1D2;}
+
+/*MENU ITEM CONTAINER*/
+span.menu-item-container{display: block;font-size: 12px;font-weight: bold;height: 2.4em;
+    text-align: center;text-transform: uppercase;background: transparent;color: #606070;padding: 15px 0 0;}
+.sf-menu.sf-style-blue li span.menu-item-container:hover{background:#D0D1D2;color: #E2001A;}
+.sf-menu.sf-style-blue.sf-navbar li ul {
+  background-color: #3270c5;/*UL de sous-rubrique*/
+}
+.sf-menu.sf-style-blue.sf-navbar li ul li ul {
+  background-color: pink;/*UL d'item de sous-rubrique*/
+  width: 150px;
+}
+/*MEGAMENU*/
+.sf-menu.sf-style-blue ul.sf-megamenu li.sf-megamenu-wrapper ol,
+.sf-menu.sf-style-blue ul.sf-megamenu li.sf-megamenu-wrapper ol li {
+  margin: 0;
+  padding: 0;
+}
+.sf-menu.sf-style-blue ul.sf-megamenu li.sf-megamenu-wrapper a.menuparent {
+  font-weight: bold;
+}
+.sf-menu.sf-style-blue ul.sf-megamenu li.sf-megamenu-wrapper ol li.sf-megamenu-column {
+  display: inline;
+  float: left;
+  width: 12em;
+}
+.sf-menu.sf-style-blue.rtl ul.sf-megamenu li.sf-megamenu-wrapper ol li.sf-megamenu-column {
+  float: right;
+}
+.sf-menu.sf-style-blue li.sf-parent-children-1 ul.sf-megamenu {
+  width: 12em;
+}
+.sf-menu.sf-style-blue li.sf-parent-children-2 ul.sf-megamenu {
+  width: 24em;
+}
+.sf-menu.sf-style-blue li.sf-parent-children-3 ul.sf-megamenu {
+  width: 36em;
+}
+.sf-menu.sf-style-blue li.sf-parent-children-4 ul.sf-megamenu {
+  width: 48em;
+}
+.sf-menu.sf-style-blue li.sf-parent-children-5 ul.sf-megamenu {
+  width: 60em;
+}
+.sf-menu.sf-style-blue li.sf-parent-children-6 ul.sf-megamenu {
+  width: 72em;
+}
+.sf-menu.sf-style-blue li.sf-parent-children-7 ul.sf-megamenu {
+  width: 84em;
+}
+.sf-menu.sf-style-blue li.sf-parent-children-8 ul.sf-megamenu {
+  width: 96em;
+}
+.sf-menu.sf-style-blue li.sf-parent-children-9 ul.sf-megamenu {
+  width: 108em;
+}
+.sf-menu.sf-style-blue li.sf-parent-children-10 ul.sf-megamenu {
+  width: 120em;
+}

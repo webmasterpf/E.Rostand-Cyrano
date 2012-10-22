@@ -7,19 +7,27 @@ engine = phptemplate
 scripts[] = js/general.js
 
 stylesheets[all][] = css/reset.css
-stylesheets[all][] = css/webform.css
 stylesheets[all][] = css/layout-home.css
 stylesheets[all][] = css/layout.css
 stylesheets[all][] = css/global.css
-stylesheets[all][] = css/navigation/nice_menus_custom.css
-stylesheets[all][] = css/navigation/nice_menu_down-horiz-children.css
-stylesheets[all][] = css/navigation/nice_menus_default.css
-stylesheets[all][] = css/calendar.css
 stylesheets[all][] = css/style-backoffice.css
 stylesheets[all][] = css/search.css
 stylesheets[all][] = css/maintenance.css
-;CSS Override pour le site
-stylesheets[all][] = css/css_galeries/galleriffic/views_galleriffic_default.css
+stylesheets[all][] = css/webform.css
+; CSS pour utiliser NiceMenu
+stylesheets[all][] = css/navigation/nice_menus_custom.css
+stylesheets[all][] = css/navigation/nice_menu_down-horiz-children.css
+stylesheets[all][] = css/navigation/nice_menus_default.css
+; CSS pour utiliser MegaMenu
+;stylesheets[all][] = css/navigation/megamenu-skins.css
+; CSS pour utiliser Superfish menu
+stylesheets[all][] = css/navigation/superfish/rostand-superfish.css
+stylesheets[all][] = css/navigation/superfish/superfish-navbar.css
+stylesheets[all][] = css/navigation/superfish/blue.css
+stylesheets[all][] = css/navigation/superfish/megamenu-superfish.css
+;CSS Override pour le site : Galeries
+stylesheets[all][] = css/css_galeries/views_galleriffic_default.css
+stylesheets[all][] = css/css_galeries/views_showcase.css
 
 
 regions[header] = Header

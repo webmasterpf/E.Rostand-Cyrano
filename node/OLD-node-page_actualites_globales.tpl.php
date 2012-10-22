@@ -28,19 +28,27 @@
             </div>
 
             
-          <?php
-$theme_path = drupal_get_path('theme', 'cyrano_er');
-include ($theme_path.'/includes/inc_region_col_G1.php');
-?>
+             <?php
+              global $theme_path;
+              include ($theme_path.'/includes/inc_actus_projets.php');
+              ?>
+
+             <?php
+              global $theme_path;
+              include ($theme_path.'/includes/inc_actus_rp.php');
+              ?>
         </div>
         <!--______________COLONNE 2________________ -->
          <!-- <pre> <?php //print_r($node); ?> </pre>-->   <!-- listage des variables du $content -->
         <div id="colonne-2" class="col2_layout_370_250_370">
 
-    
+       <?php
+              global $theme_path;
+              include ($theme_path.'/includes/inc_actus_annonces.php');
+              ?>
 
              <?php
-$theme_path = drupal_get_path('theme', 'cyrano_er');
+global $theme_path;
 include ($theme_path.'/includes/inc_region_col_G2.php');
 ?>
 
@@ -50,9 +58,9 @@ include ($theme_path.'/includes/inc_region_col_G2.php');
         
         <!--______________COLONNE 3________________ -->
         <div id="colonne-3" class="col3_layout_370_250_370">
- <?php
-$theme_path = drupal_get_path('theme', 'cyrano_er');
-include ($theme_path.'/includes/inc_region_col_G3.php');
+            <?php
+global $theme_path;
+include ($theme_path.'/includes/inc_actus_sorties.php');
 ?>
 
 

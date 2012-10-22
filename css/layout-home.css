@@ -236,3 +236,8 @@ width:978px;
 #annonce a:hover{
     text-decoration: underline;
 }
+/*DEFILANT CLASSIQUE*/
+#block-views-liste_annonce_accueil-block_1{display: block;margin: 5px 0;height: 50px;}
+/*DEFILANT CONTENU PONCTUEL*/
+#block-views-liste_annonce_accueil-block_2{font-size: 16px;color: #E2017B;width: 990px;display: block;text-align: center;font-weight: bold;margin: 10px 0;background: #CFD0D2;padding: 5px;}
+#block-views-liste_annonce_accueil-block_2 #ponctuel{display: block;width: 990px;}

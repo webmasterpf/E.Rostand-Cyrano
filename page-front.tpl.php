@@ -15,7 +15,7 @@ include ($theme_path.'/includes/inc_header.php');
               <?php print $content_top; ?>
             </div> <!-- /#content-top -->
           <?php endif; ?>
-
+<br class="clearBoth"/>
    <!-- ______________________ ZONE DIAPO _______________________ -->
 			
               <?php if ($DiapoHP): ?>
