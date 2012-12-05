@@ -1,5 +1,5 @@
 <?php
-//le bon chemin pour utiliser jqueryUI 1.7.3 - ajout 20121022
+//le bon chemin pour utiliser jqueryUI 1.7.3 - ajout 20121022 pour sgrid
 drupal_add_js('sites/all/libraries/jquery.ui/js/jquery-ui-1.7.3.custom.min.js');
 drupal_add_js('sites/all/libraries/jquery.ui/ui/ui.core.js');
 drupal_add_css('sites/all/libraries/jquery.ui/themes/base/ui.all.css');?>

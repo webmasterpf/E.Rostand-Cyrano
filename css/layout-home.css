@@ -56,10 +56,9 @@ float:left;
 padding:5px;
 }
 
-#navPicto a {
-	border:0;
-	}
-#navPicto a :hover{}
+#navPicto a {border:0;font-family: arista,Trebuchet MS, sans-serif;
+text-align: center;color:#94127F;font-size: 23px;text-decoration: none;}
+#navPicto a:hover{color: #E2001A;}
 /************PARTIE BASSE**************/
 #headBas{
 	width:990px;

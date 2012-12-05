@@ -1,8 +1,8 @@
 <?php
-$theme_path = drupal_get_path('theme','cyrano_er');
+$theme_path = drupal_get_path('theme', 'cyrano_er');
 include ($theme_path.'/includes/inc_header.php');
 ?>
- <!-- ______________________ LAYOUT PAGE ENTREPRISE LISTE OVERRIDE PAR NODE.TPL CUSTOM _______________________ -->
+ <!-- ______________________ LAYOUT PAGE VDL OVERRIDE PAR NODE.TPL CUSTOM _______________________ -->
   <!-- ______________________ CONTENU _______________________ -->
 
       <div id="contentPage">
@@ -26,7 +26,7 @@ include ($theme_path.'/includes/inc_header.php');
        <!-- ______________________ CONTENT INNER GLOBAL _______________________ -->
 
 
-        <div id="content-inner-page-vdl-liste">
+        <div id="content-inner-page-contenuVDL">
 
           <?php if ($mission || $messages || $help || $tabs): ?>
             <div id="content-header">
@@ -46,7 +46,7 @@ include ($theme_path.'/includes/inc_header.php');
             </div> <!-- /#content-header -->
           <?php endif; ?>
 		  <!-- ______________________ CONTENU CENTRAL _______________________ -->
-          <div id="middle-content-page-vdl-liste">
+          <div id="middle-content-page-contenuVDL">
 
             <?php print $content; ?>
               <?php print $feed_icons; ?>
@@ -78,6 +78,6 @@ include ($theme_path.'/includes/inc_header.php');
           <?php endif; ?>
 	 </div> <!-- /contentPage -->
 <?php
-$theme_path = drupal_get_path('theme','cyrano_er');
+$theme_path = drupal_get_path('theme', 'cyrano_er');
 include ($theme_path.'/includes/inc_footer.php');
 ?>     

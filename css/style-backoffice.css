@@ -10,8 +10,8 @@
 /*----Navigation backoffice------*/
 #block-user-1{
     background: url(../images/bg_nav_backoffice.gif) repeat scroll left top;
-    padding: 0;
-    margin: 0;
+    padding: 10px;
+    margin: 5px auto;
 }
 #block-user-1 a{
     color:#EB512F;
@@ -23,7 +23,14 @@
     background: #EB512F;
     color: white;
 }
-#block-user-1{}
+#block-user-1 h3,#block-boost-status h3{color: #E2017B;
+text-align: center;
+background: #F9EB10;
+padding: 3px;
+width: 60%;
+display: block;
+margin: 0 auto;
+border-radius: 6px 6px 6px 6px;}
 
 .item-list ul li {
 margin:0 0 0.25em 1.5em;
@@ -49,3 +56,12 @@ padding:10px 0;
 .sticky-table a{
     color: red;
 }
+/*
+== STYLE TABS EDITION ========
+*/
+.tabs{}
+ul.primary{}
+ul.primary li{}
+ul.primary li.active a{color: #EB512F;}
+ul.primary li a{color: #606071;}
+ul.primary li a:hover{color:#E2017B;}

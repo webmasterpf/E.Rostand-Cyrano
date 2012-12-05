@@ -9,7 +9,8 @@
       
     <?php
 
-$viewname = 'Actualites_liste_globale';
+//$viewname = 'Actualites_liste_globale';
+$viewname = 'Actu_liste';
 $view = views_get_view ($viewname);
 $view->set_display('block_1');
 $emptyText = $view->display_handler->set_option('empty','<div class="ma-classe"><p>Pas de contenu à afficher en ce moment.</p></div>');

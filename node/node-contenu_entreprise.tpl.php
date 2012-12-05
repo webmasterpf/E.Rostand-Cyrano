@@ -2,7 +2,7 @@
 /* Ce template permet la création d'un layout multicolonne pour les pages de base, en permettant la disposition facile
  * des champs CCK custom, si nécessaires pour une page de base.
 */?>
-<!--______________NODE TPL POUR PAGE.TPL CUSTOM________________ -->
+<!--______________NODE TPL POUR PAGE.TPL ENTREPRISE CUSTOM________________ -->
 <div class="node <?php print $classes; ?>" id="node-<?php print $node->nid; ?>">
     <div class="node-inner">
         <!--______________COLONNE 1________________ -->
@@ -45,7 +45,7 @@
             
             <?php endif; ?>
              <?php
-              global $theme_path;
+              $theme_path = drupal_get_path('theme','cyrano_er');
               include ($theme_path.'/includes/inc_region_col_G1.php');
               ?>
         </div>
@@ -56,12 +56,12 @@
 <?php print $my_terms; ?>
 </div>
              <?php
-              global $theme_path;
+              $theme_path = drupal_get_path('theme','cyrano_er');
               include ($theme_path.'/includes/inc_contenuEntreprise_docs.php');
               ?>
 <br/>
           <?php
-              global $theme_path;
+              $theme_path = drupal_get_path('theme','cyrano_er');
               include ($theme_path.'/includes/inc_rostand_actus.php');
               ?>
             

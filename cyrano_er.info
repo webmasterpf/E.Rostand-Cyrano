@@ -1,5 +1,5 @@
 name = E.Rostand inspired by Cyrano
-description = Theme pour site E.Rostand - Design and Integration by Webmaster PF
+description = Theme pour site E.Rostand - Design and Developpment by Webmaster PF
 version = VERSION
 core = 6.x
 engine = phptemplate
@@ -66,4 +66,3 @@ settings[basic_zen_tabs]             = 1
 settings[basic_wireframe]            = 0
 settings[basic_block_editing]        = 1
 settings[basic_rebuild_registry]     = 1
-
