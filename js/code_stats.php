@@ -33,13 +33,24 @@ qacct:"p-behZUd_cXqsz-"
 <img src="http://pixel.quantserve.com/pixel/p-behZUd_cXqsz-.gif" style="display: none;" border="0" height="1" width="1" alt="Quantcast"/>
 </noscript>
 <!-- End Quantcast tag -->
-<!-- Woopra Code Start -->
-<script type="text/javascript" src="//static.woopra.com/js/woopra.v2.js"></script>
+<!-- Start of Woopra Code -->
 <script type="text/javascript">
-woopraTracker.setDomain("lycee-edmond-rostand.fr");
-woopraTracker.track();
+function woopraReady(tracker) {
+    tracker.setDomain('lycee-edmond-rostand.fr');
+    tracker.setIdleTimeout(1800000);
+    tracker.track();
+    return false;
+}
+(function() {
+    var wsc = document.createElement('script');
+    wsc.src = document.location.protocol+'//static.woopra.com/js/woopra.js';
+    wsc.type = 'text/javascript';
+    wsc.async = true;
+    var ssc = document.getElementsByTagName('script')[0];
+    ssc.parentNode.insertBefore(wsc, ssc);
+})();
 </script>
-<!-- Woopra Code End -->
+<!-- End of Woopra Code -->
 <!-- Start of StatCounter Code -->
 <script type="text/javascript">
 var sc_project=6262185;

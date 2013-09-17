@@ -34,10 +34,16 @@
             </div>
             <?php endif;?>
             
-  <!--***********!!!!!!  EXEMPLE DE CHAMP CCK INCLUS AVEC CONDITION !!!!!!!!************ -->
-            <?php if ($node->nom_du_champ[0]['view']): ?>
-            <div id="nom-css">
-                    <?php  print $node->nom_du_champ[0]['view']  ?>
+  <!--***********!!!!!!  VUE PROJETS !!!!!!!!************ -->
+            <?php if ($node->field_vue_projets[0]['view']): ?>
+            <div class="projets-annee" id="program">
+                    <?php  print $node->field_vue_projets[0]['view']  ?>
+            </div>
+            <?php endif;?>
+            
+                <?php if ($node->field_vue_projets[1]['view']): ?>
+            <div class="projets-annee" id="realise">
+                    <?php  print $node->field_vue_projets[1]['view']  ?>
             </div>
             <?php endif;?>
   

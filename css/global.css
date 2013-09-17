@@ -59,6 +59,10 @@ HOMEPAGE STYLE==================================
 #HPGauche2 li a:hover{
   text-decoration: underline;
 }
+.txt-accueil{padding: 0 5px;}
+.txt-accueil strong{color: #93117E;}
+.txt-accueil a{text-decoration: none;color: #E2001A;padding: 1px;}
+.txt-accueil a:hover{background: #E2001A;color: #ECECED;}
 /*-------------------------------------------------
 *********  COULEURS *****************
 gris anthracite #606070
@@ -420,6 +424,12 @@ h1.plycee{
     width: 60%;
     margin: 0 auto;
 }
+.projets-annee{}
+.projets-annee h3{font-style: italic;text-align: center;}
+.projets-annee table{box-shadow: #555 1px;}
+
+#program{}
+#realise{}
 /*********************************
 ----------------------------------
 ---- BLOC rostand ACTUS et AUTRES EVENEMENTS---------
@@ -621,7 +631,7 @@ box-shadow:inset 0 0 2px #CCC;
      
 }
 .titre_actuGlobale a:hover{
-   background: #E85231;
+   background: #EFEFEF;
    text-decoration: none;
 }
 .image_actuGlobale{
@@ -697,7 +707,7 @@ hr.sep-actus-violet{
 /*------------------------------
         BLOC ANNONCES
 -----------------------------*/
-#block-views-Actu_liste-block_6,#block-views-Entreprise-block_3{
+#block-views-Entreprise-block_3{
   background-color: white;
   background-image: url(../images/bg_rostand_actus_ht.jpg),url(../images/bg_rostand_actus_bas.jpg);
   background-position: left 23px, left bottom;
@@ -708,12 +718,38 @@ hr.sep-actus-violet{
 }
 #block-views-Actu_liste-block_6 tr{}
 #block-views-Actu_liste-block_6 td{}
-#block-views-Actu_liste-block_6 h3,#block-views-Entreprise-block_3 h3{
+#block-views-Entreprise-block_3 h3{
     color: #01ABCF;
     font-family: arista,Trebuchet MS,sans-serif;
     padding: 5px;
     text-align: center;
      font-size: 20px;
+}
+#block-views-Actu_liste-block_6{
+        background:  url(../images/bg_bloc_violet_petit_ht.jpg) no-repeat left top ;
+        width: 210px;
+        margin: 0 auto;
+        padding: 5px 0 0;
+}
+#block-views-Actu_liste-block_6 h3{
+    color: white;
+    font-family: Arista,Trebuchet MS,sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+#block-views-Actu_liste-block_6 .view-footer{
+    background: url(../images/bg_bloc_violet_petit_bas.jpg) no-repeat left bottom ;
+     text-align: center;
+        padding: 3px;
+}
+#block-views-Actu_liste-block_6 .view-footer a{
+    color: white;
+    font-family: Arista,Trebuchet MS,sans-serif;
+    font-size: 12px;
+    text-decoration: none;
+}
+#block-views-Actu_liste-block_6 .view-footer a:hover{
+    text-decoration: underline
 }
 #table_ag_annonces tbody,#table_entr_docprat{width: 200px;}
 #table_ag_annonces td,#table_entr_docprat td{
@@ -737,8 +773,8 @@ hr.sep-actus-violet{
     background: #E2001A;
     color: white;
 }
-#block-views-Actu_liste-block_6 .view-footer{text-align: center;padding: 3px;}
-#block-views-Actu_liste-block_6 .view-footer a{color: #E2001A;
+#block-views-Actu_liste-block_6 .view-footer{text-align: center;padding: 0px;}
+#block-views-Actu_liste-block_6 .view-footer a{color: white;
     font-family: Arista,Trebuchet MS,sans-serif;
     font-size: 12px;
     text-decoration: none;
@@ -1073,7 +1109,7 @@ h1.titre_actu, h1.titre_page{
     display: block;
     margin: 0 auto;
     text-align: center;
-    width: 470px;
+    width: 385px;
 }
 #illus-actu img{
     margin: 20px;

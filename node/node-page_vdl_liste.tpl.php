@@ -17,7 +17,7 @@
             <h1 class="titre_page_vdl"><?php print $title; ?></h1>
             <?php endif; ?>
              <?php
-              global $theme_path;
+              $theme_path = drupal_get_path('theme', 'cyrano_er');
               include ($theme_path.'/includes/inc_region_col_G1.php');
               ?>
         </div>
@@ -34,25 +34,26 @@
             <div class="content">
                 <?php   print $node->content['body']['#value'];/*déplacer le contenu dans la colonne désirée*/ ?>
 
+               
               <?php
-              global $theme_path;
-              include ($theme_path.'/includes/inc_liste_vdl.php');
+              //$theme_path = drupal_get_path('theme', 'cyrano_er');
+              //include ($theme_path.'/includes/inc_liste_vdl.php');
               ?>
 
+                     <?php
+              $theme_path = drupal_get_path('theme', 'cyrano_er');
+              include ($theme_path.'/includes/inc_region_col_G2.php');
+              ?>
+                
             </div>
 
         </div>
 
         <!--______________COLONNE 3________________ -->
         <div id="colonne-3" class="col3_layout_18_56_25">
-            <!--***********!!!!!!  EXEMPLE DE CHAMP CCK INCLUS AVEC CONDITION !!!!!!!!************ -->
-            <?php if ($node->nom_du_champ[0]['view']): ?>
-            <div id="nom-css">
-                    <?php  print $node->nom_du_champ[0]['view']  ?>
-            </div>
-            <?php endif;?>
+          
                 <?php
-              global $theme_path;
+              $theme_path = drupal_get_path('theme', 'cyrano_er');
               include ($theme_path.'/includes/inc_rostand_actus.php');
               ?>
 
