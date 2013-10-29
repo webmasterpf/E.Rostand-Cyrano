@@ -156,11 +156,11 @@ padding: 5px;
 color:#d63e2a;
 text-decoration:none;
 }
-##ariane{
+/*#ariane{
     display: block;
     width: auto;
 background: white;
-}
+}*/
 
 .breadcrumb a,.breadcrumb span.menu-item-container{
 color:#4e4d5e;
