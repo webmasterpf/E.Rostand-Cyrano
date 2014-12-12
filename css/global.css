@@ -707,48 +707,34 @@ hr.sep-actus-violet{
 /*------------------------------
         BLOC ANNONCES
 -----------------------------*/
-#block-views-Entreprise-block_3{
-  background-color: white;
-  background-image: url(../images/bg_rostand_actus_ht.jpg),url(../images/bg_rostand_actus_bas.jpg);
-  background-position: left 23px, left bottom;
-  background-repeat: no-repeat;
-    margin: 0 auto;
-    padding: 5px 0;
-    width: 210px;
-}
+
 #block-views-Actu_liste-block_6 tr{}
 #block-views-Actu_liste-block_6 td{}
-#block-views-Entreprise-block_3 h3{
-    color: #01ABCF;
-    font-family: arista,Trebuchet MS,sans-serif;
-    padding: 5px;
-    text-align: center;
-     font-size: 20px;
-}
-#block-views-Actu_liste-block_6{
+
+#block-views-Actu_liste-block_6, #block-views-Entreprise-block_3{
         background:  url(../images/bg_bloc_violet_petit_ht.jpg) no-repeat left top ;
         width: 210px;
         margin: 0 auto;
         padding: 5px 0 0;
 }
-#block-views-Actu_liste-block_6 h3{
+#block-views-Actu_liste-block_6 h3, #block-views-Entreprise-block_3 h3{
     color: white;
     font-family: Arista,Trebuchet MS,sans-serif;
     font-size: 20px;
     text-align: center;
 }
-#block-views-Actu_liste-block_6 .view-footer{
+#block-views-Actu_liste-block_6 .view-footer,#block-views-Entreprise-block_3 .view-footer{
     background: url(../images/bg_bloc_violet_petit_bas.jpg) no-repeat left bottom ;
      text-align: center;
         padding: 3px;
 }
-#block-views-Actu_liste-block_6 .view-footer a{
+#block-views-Actu_liste-block_6 .view-footer a,#block-views-Entreprise-block_3 .view-footer a{
     color: white;
     font-family: Arista,Trebuchet MS,sans-serif;
     font-size: 12px;
     text-decoration: none;
 }
-#block-views-Actu_liste-block_6 .view-footer a:hover{
+#block-views-Actu_liste-block_6 .view-footer a:hover,#block-views-Entreprise-block_3 .view-footer a:hover{
     text-decoration: underline
 }
 #table_ag_annonces tbody,#table_entr_docprat{width: 200px;}
