@@ -1124,6 +1124,23 @@ h1.titre_actu, h1.titre_page{
     padding: 2px 5px;
 }
 #colonne-1.content_vdl strong{color: #4e4d5e;}
+/*Tableau - ajout 06/2015*/
+#colonne-1.content_vdl table{
+    width: 98%;border: 0;
+}
+#colonne-1.content_vdl tbody{}
+#colonne-1.content_vdl tbody tr :hover{
+    border-left: 0.15em solid #E0001A; 
+}
+#colonne-1.content_vdl tr:nth-child(even) {
+    background-color: #eee;
+}
+#colonne-1.content_vdl tr:nth-child(odd) {
+    background-color: #fff;
+}
+#colonne-1.content_vdl tbody td{text-align: center;text-transform: capitalize;}
+#colonne-1.content_vdl thead{background: #eaeaea;}
+#colonne-1.content_vdl thead th {text-align: center;}
 /* Medias pour contenu VDL*/
 #video-vdl{
     width: 425px;
